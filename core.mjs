@@ -12,6 +12,7 @@ export function stateOf(item, now = new Date()) {
   if (passed(item.submissionDeadline, now, item.timezone)) return 'archived';
   if (passed(item.registrationDeadline, now, item.timezone)) return 'registered';
   if (item.registrationOpens && !passed(item.registrationOpens, now, item.timezone) && item.registrationOpens.slice(0,10) !== localDate(now,item.timezone)) return 'upcoming';
+  if (item.entryStatus === 'unknown' || (!item.registrationDeadline && !item.submissionDeadline)) return 'uncertain';
   return 'open';
 }
 export function nextDeadline(item, now = new Date()) {

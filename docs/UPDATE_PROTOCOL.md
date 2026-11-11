@@ -1,4 +1,4 @@
-# FIELDNOTES 更新协议
+# LA News 更新协议
 
 网站：https://lucidlynx5.github.io/personal-ai-learning/
 仓库：`lucidlynx5/personal-ai-learning`，GitHub Pages 从 `main` 根目录发布。
@@ -6,7 +6,7 @@
 
 ## 更新入口
 
-ChatGPT 自动任务“更新景观竞赛网站”每两天执行一次网络研究并通过已连接 GitHub 写回 `data/competitions.json`。
+ChatGPT 自动任务“更新 LA News 竞赛索引”每两天执行一次网络研究并通过已连接 GitHub 写回 `data/competitions.json`。
 首次计划：2026-11-13 08:00（Asia/Shanghai，灵活调度可能前后约一小时）。
 这不是浏览器定时器，不依赖网站保持打开，也不依赖当前 `/workspace` 持续存在。
 任务已创建不代表未来每次执行必然成功。首版尚无自动执行历史。
@@ -81,3 +81,25 @@ git diff --check
 运行摘要不夸大覆盖/验证数量，无新增也应记录实际完成的核查。
 提交后确认 Pages 部署与公开 `data/competitions.json` 对应更新；Git commit成功不等于上线成功。
 失败时保留有效数据并准确报告；不能假称成功，不得用合成案例补位。
+
+
+## 2026-11-11 用户修订（优先于初版说明）
+
+网站改名 **LA News**。只做明确、简洁、清晰的索引，不添加宣传标语、branding段落、受众说明、效率介绍、装饰示意图。
+中英文切换保持顶部明确可见“中文 / English”。
+
+每轮以至少30条有证据的未过当前提交截止的相关记录为覆盖目标，持续发现新条目。
+这是研究目标而非凑数许可：不得拆分同一赛事赛道计数，不得用纯建筑、摄影、园林养护或普通施工采购填充，不得将评审/颁奖日期当投稿截止。
+若确实不足，报告搜索范围和缺口。未截止数量不等于仍可新报名数量；必须分别报告开放、待开报、已报名仍可提交、状态待核实。
+
+来源目录现分四组，字段 `source.group:government|association|media|organizer`。
+除谷德、有方、Landezine、WLA、Wallpaper*外，包含ASLA、IFLA及各国协会，以及中国政府采购/公共资源与地方平台、TED、eTenders、英国Find a Tender/Sell2Wales、法国BOAMP、德国联邦采购、澳洲AusTender、美国SAM、新加坡GeBIZ。
+目录未读为planned，访问受限为blocked。checked表示已开展所述检索或阅读，不表示全量接入API或核验了该来源全部信息。
+
+竞赛可增加：
+- `opportunityType:tender|competition|award|nomination|grant`。
+- `entryStatus:unknown`：只知道未来提交节点、无法确认能否新报名/获取文件时使用，前端不将其标为开放。
+- `reviewMethod:full-text|search-excerpt`：明确读过正文还是仅得到索引摘要；这与官方/转载核查级别分别表达。
+
+设计招标的registrationDeadline对应文件获取/参与登记截止，submissionDeadline对应投标截止。
+官方采购中的合同上限、框架估计额、工程总投资、投标保证金、文件费必须区分，不能统一宣传为奖金或报名费。

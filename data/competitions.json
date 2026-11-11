@@ -1,17 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T04:49:26Z",
+  "updatedAt": "2026-11-11T22:34:06Z",
   "updateIntervalDays": 2,
   "automation": {
     "status": "enabled",
     "taskId": "Automation_181c60c7f7bc81918524186435f17f0a",
     "nextRunAt": "2026-11-13T08:00:00+08:00",
     "lastRunStatus": "not_run",
-    "lastAttemptAt": null
+    "lastAttemptAt": null,
+    "researchTarget": {
+      "zh": "至少30条未过当前提交截止的相关机会；不得为数量编造或保留过期条目。",
+      "en": "Target at least 30 relevant non-expired opportunities; never invent or retain expired entries to meet the number."
+    }
   },
   "runSummary": {
-    "zh": "初版核对10条机会；官方核对5条，部分核对1条，其余保留复核说明。",
-    "en": "Initial review: 10 opportunities; 5 checked on official sites, 1 partially verified, with remaining uncertainties labeled."
+    "zh": "扩展检索专业媒体、协会与政府设计采购；保留原文已核对、部分核对及转载待复核的区别，报名结束与交稿截止分开处理。",
+    "en": "Expanded research across specialist media, associations and government design procurement; verification levels and registration/submission milestones remain separate."
   },
   "sources": [
     {
@@ -19,112 +23,356 @@
       "url": "https://landezine.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "media"
     },
     {
       "name": "World Landscape Architecture",
       "url": "https://worldlandscapearchitect.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "media"
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com/architecture-competitions",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "media"
     },
     {
       "name": "有方 · Archiposition",
       "url": "https://www.archiposition.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "media"
     },
     {
       "name": "设计竞赛网",
       "url": "https://www.shejijingsai.com/category/dasai/huanjing",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "media"
     },
     {
       "name": "Streetlife Competition",
       "url": "https://streetlifedesigncompetition.com/",
       "kind": "official",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "organizer"
     },
     {
       "name": "三宝树湿地竞赛官网",
       "url": "https://nm-spswcp.hk/en/design-competition/",
       "kind": "official",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "organizer"
     },
     {
       "name": "APLD",
       "url": "https://www.apld.org/landscape-design-awards-program",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "association"
     },
     {
       "name": "ICAAF",
       "url": "https://www.icaaf.ca/competition",
       "kind": "official",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "organizer"
     },
     {
       "name": "Carré des Jardiniers",
       "url": "https://www.carre-des-jardiniers.com/",
       "kind": "official",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "organizer"
     },
     {
       "name": "NCASLA",
       "url": "https://www.ncasla.org/professional-and-student-awards",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "association"
     },
     {
       "name": "Toronto Society of Architects",
       "url": "https://torontosocietyofarchitects.ca/",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "group": "association"
     },
     {
       "name": "中国风景园林学会",
       "url": "https://www.chsla.org.cn/",
       "kind": "association",
       "status": "planned",
-      "lastChecked": null
+      "lastChecked": null,
+      "group": "association"
     },
     {
       "name": "深圳设计竞赛 · SZDC",
       "url": "https://www.szdesigncenter.com/",
       "kind": "official",
       "status": "planned",
-      "lastChecked": null
+      "lastChecked": null,
+      "group": "organizer"
     },
     {
-      "name": "谷德 · gooood",
+      "name": "gooood · 谷德",
       "url": "https://www.gooood.cn/",
       "kind": "media",
       "status": "planned",
-      "lastChecked": null
+      "lastChecked": null,
+      "group": "media"
     },
     {
       "name": "Bustler",
       "url": "https://bustler.net/competitions",
       "kind": "media",
       "status": "planned",
+      "lastChecked": null,
+      "group": "media"
+    },
+    {
+      "name": "Wallpaper*",
+      "url": "https://www.wallpaper.com/",
+      "kind": "media",
+      "group": "media",
+      "status": "planned",
       "lastChecked": null
+    },
+    {
+      "name": "ASLA · 美国景观设计师协会",
+      "url": "https://www.asla.org/resources/practitioners/rfqs-and-opportunities",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "IFLA · 国际景观设计师联合会",
+      "url": "https://www.iflaworld.com/",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "BDLA · 德国景观建筑师协会",
+      "url": "https://www.bdla.de/",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "HTA / APL · 英国景观行业",
+      "url": "https://hta.org.uk/",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "Irish Landscape Institute",
+      "url": "https://www.irishlandscapeinstitute.com/",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "AILA · 澳大利亚景观建筑师协会",
+      "url": "https://www.aila.org.au/",
+      "kind": "association",
+      "group": "association",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "NZILA · 新西兰景观建筑师协会",
+      "url": "https://www.nzila.co.nz/",
+      "kind": "association",
+      "group": "association",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "CSLA · 加拿大景观建筑师协会",
+      "url": "https://www.csla-aapc.ca/",
+      "kind": "association",
+      "group": "association",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "Landscape Institute · 英国",
+      "url": "https://www.landscapeinstitute.org/",
+      "kind": "association",
+      "group": "association",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "全国公共资源交易平台",
+      "url": "https://www.ggzy.gov.cn/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "北京公共资源交易",
+      "url": "https://ggzyfw.beijing.gov.cn/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "成都公共资源交易",
+      "url": "https://www.cdggzy.com/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "浙江政府采购及交易",
+      "url": "https://zfcg.czt.zj.gov.cn/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "郑东投资集团 · 公共业主",
+      "url": "https://www.zzxqjt.com/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "TED · 欧盟公共采购",
+      "url": "https://ted.europa.eu/",
+      "kind": "official",
+      "group": "government",
+      "status": "blocked",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "notes": {
+        "zh": "官方公告返回JavaScript验证页面，未完成原文核对。",
+        "en": "Official notices returned a JavaScript verification page; original text was not verified."
+      }
+    },
+    {
+      "name": "eTenders · 爱尔兰政府采购",
+      "url": "https://www.etenders.gov.ie/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "Find a Tender · 英国政府",
+      "url": "https://www.find-tender.service.gov.uk/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "Sell2Wales · 威尔士政府采购",
+      "url": "https://www.sell2wales.gov.wales/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "BOAMP · 法国公共采购",
+      "url": "https://www.boamp.fr/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "service.bund.de · 德国联邦采购",
+      "url": "https://www.service.bund.de/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "AusTender · 澳大利亚政府采购",
+      "url": "https://www.tenders.gov.au/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "SAM.gov · 美国联邦采购",
+      "url": "https://sam.gov/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "GeBIZ · 新加坡政府采购",
+      "url": "https://www.gebiz.gov.sg/",
+      "kind": "official",
+      "group": "government",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "Archiol · 概念竞赛主办方",
+      "url": "https://www.archiolcompetitions.com/",
+      "kind": "official",
+      "group": "organizer",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "Bord Bia Bloom",
+      "url": "https://www.bordbiabloom.com/",
+      "kind": "official",
+      "group": "organizer",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
+    },
+    {
+      "name": "Pro Landscaper Awards",
+      "url": "https://www.prolandscaperbusinessawards.com/",
+      "kind": "official",
+      "group": "organizer",
+      "status": "checked",
+      "lastChecked": "2026-11-11T22:34:06Z"
     }
   ],
   "competitions": [
@@ -181,7 +429,8 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "shanghai-garden-2027",
@@ -234,7 +483,8 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "streetlife-2027",
@@ -287,7 +537,8 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "persian-garden-2027",
@@ -345,7 +596,8 @@
       "verification": "partial",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "seoul-garden-2027",
@@ -398,7 +650,8 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "carre-jardiniers-2027",
@@ -451,7 +704,8 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "ncasla-awards-2027",
@@ -504,7 +758,8 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "award"
     },
     {
       "id": "apld-awards-2027",
@@ -557,7 +812,8 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "award"
     },
     {
       "id": "jiashan-2026",
@@ -610,7 +866,8 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
     },
     {
       "id": "chaumont-garden-2027",
@@ -663,7 +920,1470 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z"
+      "lastChecked": "2026-11-11T04:49:26Z",
+      "opportunityType": "competition"
+    },
+    {
+      "id": "bloom-show-gardens-2027",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "Bord Bia Bloom 2027 展示花园征集",
+        "en": "Bord Bia Bloom 2027 Show Gardens"
+      },
+      "originalTitle": "Bord Bia Bloom 2027 Show Gardens",
+      "location": {
+        "zh": "爱尔兰 · 都柏林",
+        "en": "Dublin, Ireland"
+      },
+      "summary": {
+        "zh": "征集可在凤凰公园建造的展示花园，另设面向新人的Cultivating Talent项目。",
+        "en": "Show garden proposals for Phoenix Park; the call also includes the Cultivating Talent program."
+      },
+      "eligibility": {
+        "zh": "面向爱尔兰及海外设计师，须具备设计到施工的交付能力；新人项目条件另查。",
+        "en": "Irish and overseas designers with capacity to deliver a garden; separate conditions apply to emerging talent."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-26T13:00:00+00:00",
+      "submissionDeadline": "2026-11-26T13:00:00+00:00",
+      "registrationOpens": null,
+      "timezone": "Europe/Dublin",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "展示花园机会；新人项目有资金与导师支持",
+        "en": "Show garden opportunity; emerging-talent support includes funding and mentoring"
+      },
+      "notes": {
+        "zh": "日期来自爱尔兰景观协会；官网确认2027届，具体申请附件仍需复核。",
+        "en": "Deadline is from ILI. The organizer confirms the 2027 edition; application attachments still need review."
+      },
+      "sources": [
+        {
+          "name": "Irish Landscape Institute",
+          "url": "https://www.irishlandscapeinstitute.com/articles/bord-bia-bloom-open-for-applications",
+          "kind": "association"
+        },
+        {
+          "name": "Bord Bia Bloom",
+          "url": "https://www.bordbiabloom.com/",
+          "kind": "official"
+        }
+      ],
+      "verification": "partial",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "apl-avenue-2027",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "2027 APL Avenue 展示花园竞赛",
+        "en": "APL Avenue Competition 2027"
+      },
+      "originalTitle": "APL Avenue Competition 2027",
+      "location": {
+        "zh": "英国 · Packington Estate",
+        "en": "Packington Estate, UK"
+      },
+      "summary": {
+        "zh": "选择3座花园参加BBC Gardeners’ World Live 2027，并提供建造资助。",
+        "en": "Three show gardens are selected for BBC Gardeners’ World Live 2027, with construction grants."
+      },
+      "eligibility": {
+        "zh": "仅限APL设计师及景观承建会员。",
+        "en": "APL designer and landscaper members only."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-12-04",
+      "submissionDeadline": "2026-12-04",
+      "registrationOpens": null,
+      "timezone": "Europe/London",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "每座入选花园£21,000 + VAT资助",
+        "en": "£21,000 + VAT grant per selected garden"
+      },
+      "notes": {
+        "zh": "以BBC Gardeners’ World六十周年为设计线索；需承担现场花园营建。",
+        "en": "Design responds to the program’s 60th anniversary; selected teams must build their garden."
+      },
+      "sources": [
+        {
+          "name": "HTA / APL",
+          "url": "https://hta.org.uk/apl/events/shows/bbc-gardeners-world-live/apl-avenue-competition-2027",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "german-landscape-prize-2027",
+      "category": "award",
+      "region": "international",
+      "title": {
+        "zh": "2027德国景观建筑奖",
+        "en": "German Landscape Architecture Prize 2027"
+      },
+      "originalTitle": "German Landscape Architecture Prize 2027",
+      "location": {
+        "zh": "德国",
+        "en": "Germany"
+      },
+      "summary": {
+        "zh": "第18届德国景观建筑奖，征集应对气候、生态与公众参与的景观项目。",
+        "en": "The 18th national landscape architecture prize seeks projects addressing climate, ecology and participation."
+      },
+      "eligibility": {
+        "zh": "每位申请人最多3个项目；具体地域、作者与完工年限需查正式规则。",
+        "en": "Up to three projects per entrant; confirm geographic, authorship and completion-year conditions."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2027-01-25",
+      "submissionDeadline": "2027-01-25",
+      "registrationOpens": "2026-11-05",
+      "timezone": "Europe/Berlin",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "官网时间轴为2026年11月5日至2027年1月25日；页面介绍仍含预告文案，以正式申报入口为准。",
+        "en": "The official timeline gives 5 November 2026–25 January 2027. Some introductory text remains pre-launch; check the entry portal."
+      },
+      "sources": [
+        {
+          "name": "BDLA 奖项官网 / Award website",
+          "url": "https://www.deutscher-landschaftsarchitektur-preis.de/www.deutscher-landschaftsarchitektur-preis.de",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "award",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "pro-landscaper-business-2027",
+      "category": "award",
+      "region": "international",
+      "title": {
+        "zh": "2027 Pro Landscaper 商业奖",
+        "en": "Pro Landscaper Business Awards 2027"
+      },
+      "originalTitle": "Pro Landscaper Business Awards 2027",
+      "location": {
+        "zh": "英国",
+        "en": "United Kingdom"
+      },
+      "summary": {
+        "zh": "面向景观设计及园艺企业的行业奖，评审企业、团队与经营实践。",
+        "en": "An industry award for landscaping and garden-design businesses, teams and operating practices."
+      },
+      "eligibility": {
+        "zh": "景观建筑、花园设计、施工及相关企业；英国市场及各类别条件另查。",
+        "en": "Landscape architecture, garden design and related businesses; check UK-market and category conditions."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2027-02-04",
+      "submissionDeadline": "2027-02-04",
+      "registrationOpens": null,
+      "timezone": "Europe/London",
+      "fee": "paid",
+      "feeText": {
+        "zh": "分阶段收费；早鸟至11月30日，金额查申报指南",
+        "en": "Tiered entry fees; early-bird deadline 30 November, see entry guide"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "这是企业经营与团队奖，不是具体作品的设计评奖。",
+        "en": "This recognizes business and team performance, rather than a standalone design project."
+      },
+      "sources": [
+        {
+          "name": "Pro Landscaper Business Awards",
+          "url": "https://www.prolandscaperbusinessawards.com/",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "award",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "ifla-jellicoe-2027",
+      "category": "award",
+      "region": "international",
+      "title": {
+        "zh": "2027 IFLA 杰弗里·杰里科奖提名",
+        "en": "IFLA Jellicoe Award 2027 Nominations"
+      },
+      "originalTitle": "IFLA Jellicoe Award 2027 Nominations",
+      "location": {
+        "zh": "国际",
+        "en": "Worldwide"
+      },
+      "summary": {
+        "zh": "为对景观行业及社会环境作出长期贡献的在世景观师征集提名。",
+        "en": "Nominations for living landscape architects with lasting professional, social and environmental contributions."
+      },
+      "eligibility": {
+        "zh": "任何人均可提名；被提名人须有具国际影响的学术或专业成就。",
+        "en": "Anyone may nominate; candidates need internationally respected academic or professional achievements."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2027-01-15",
+      "submissionDeadline": "2027-01-15",
+      "registrationOpens": null,
+      "timezone": null,
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "专业人物荣誉，通过提名函申报，不属于开放方案竞赛。",
+        "en": "A professional lifetime-achievement honor submitted by nomination letter, not a design-proposal competition."
+      },
+      "sources": [
+        {
+          "name": "IFLA 官方提名通知 / Official",
+          "url": "https://www.iflaworld.com/jellicoe-2027-call-for-nominations",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "nomination",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "urban-river-reclamation-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "城市河流修复公园国际概念竞赛",
+        "en": "Urban River Reclamation Park"
+      },
+      "originalTitle": "Urban River Reclamation Park",
+      "location": {
+        "zh": "国际 · 自选或假设场地",
+        "en": "Worldwide · chosen or hypothetical site"
+      },
+      "summary": {
+        "zh": "将被忽视的城市河流转化为兼具生态修复、防洪与公共活动的公园。",
+        "en": "Transform a neglected urban river into a park combining restoration, flood resilience and public use."
+      },
+      "eligibility": {
+        "zh": "面向设计师与学生；可个人或不超过4人团队参赛。",
+        "en": "Designers and students; individual entries or teams of up to four."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2027-01-04T23:59:00+00:00",
+      "submissionDeadline": "2027-01-14T23:59:00+00:00",
+      "registrationOpens": null,
+      "timezone": "UTC",
+      "fee": "paid",
+      "feeText": {
+        "zh": "当前阶段 US$53，后续阶段涨价",
+        "en": "Current stage US$53; higher fees at later stages"
+      },
+      "prize": {
+        "zh": "出版、证书及评审反馈；不承诺固定现金奖金",
+        "en": "Publication, certificates and jury feedback; fixed cash prizes are not guaranteed"
+      },
+      "notes": {
+        "zh": "商业概念竞赛，不承诺落地；以官网最新费率与任务书为准。",
+        "en": "Commercial ideas competition with no implementation commitment. Check the current fee schedule and brief."
+      },
+      "sources": [
+        {
+          "name": "Archiol 官方 / Organizer",
+          "url": "https://www.archiolcompetitions.com/competitions/urban_river_reclamation_park",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "future-cemetery-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "未来墓园：记忆与景观国际概念竞赛",
+        "en": "Future Cemetery, Memory & Landscape"
+      },
+      "originalTitle": "Future Cemetery, Memory & Landscape",
+      "location": {
+        "zh": "国际 · 自选或假设场地",
+        "en": "Worldwide · chosen or hypothetical site"
+      },
+      "summary": {
+        "zh": "以生态、仪式和公共空间重新思考墓园景观。",
+        "en": "Rethink cemetery landscapes through ecology, ritual and shared public space."
+      },
+      "eligibility": {
+        "zh": "面向设计师与学生；可个人或不超过4人团队参赛。",
+        "en": "Designers and students; individual entries or teams of up to four."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2027-01-08T23:59:00+00:00",
+      "submissionDeadline": "2027-01-18T23:59:00+00:00",
+      "registrationOpens": null,
+      "timezone": "UTC",
+      "fee": "paid",
+      "feeText": {
+        "zh": "当前阶段 US$53，后续阶段涨价",
+        "en": "Current stage US$53; higher fees at later stages"
+      },
+      "prize": {
+        "zh": "出版、证书及评审反馈；不承诺固定现金奖金",
+        "en": "Publication, certificates and jury feedback; fixed cash prizes are not guaranteed"
+      },
+      "notes": {
+        "zh": "商业概念竞赛，不承诺落地；以官网最新费率与任务书为准。",
+        "en": "Commercial ideas competition with no implementation commitment. Check the current fee schedule and brief."
+      },
+      "sources": [
+        {
+          "name": "Archiol 官方 / Organizer",
+          "url": "https://www.archiolcompetitions.com/competitions/future_cemetery_memory_landscape",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "urban-forest-pavilion-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "城市森林亭阁国际概念竞赛",
+        "en": "Urban Forest Pavilion"
+      },
+      "originalTitle": "Urban Forest Pavilion",
+      "location": {
+        "zh": "国际 · 自选或假设场地",
+        "en": "Worldwide · chosen or hypothetical site"
+      },
+      "summary": {
+        "zh": "以小尺度亭阁建立城市绿地中的停留与自然体验空间。",
+        "en": "A small pavilion supporting rest and experiences of nature within urban green space."
+      },
+      "eligibility": {
+        "zh": "面向设计师与学生；可个人或不超过4人团队参赛。",
+        "en": "Designers and students; individual entries or teams of up to four."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2027-01-12T23:59:00+00:00",
+      "submissionDeadline": "2027-01-22T23:59:00+00:00",
+      "registrationOpens": null,
+      "timezone": "UTC",
+      "fee": "paid",
+      "feeText": {
+        "zh": "当前阶段 US$54，后续阶段涨价",
+        "en": "Current stage US$54; higher fees at later stages"
+      },
+      "prize": {
+        "zh": "出版、证书及评审反馈；不承诺固定现金奖金",
+        "en": "Publication, certificates and jury feedback; fixed cash prizes are not guaranteed"
+      },
+      "notes": {
+        "zh": "商业概念竞赛，不承诺落地；以官网最新费率与任务书为准。",
+        "en": "Commercial ideas competition with no implementation commitment. Check the current fee schedule and brief."
+      },
+      "sources": [
+        {
+          "name": "Archiol 官方 / Organizer",
+          "url": "https://www.archiolcompetitions.com/competitions/urban_forest_pavilion",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "urban-wildlife-habitat-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "城市野生动物栖息地国际概念竞赛",
+        "en": "Urban Wildlife Habitat"
+      },
+      "originalTitle": "Urban Wildlife Habitat",
+      "location": {
+        "zh": "国际 · 自选或假设场地",
+        "en": "Worldwide · chosen or hypothetical site"
+      },
+      "summary": {
+        "zh": "探索人与非人类物种共存的城市生态空间及栖息地设计。",
+        "en": "Explore urban habitats and ecological spaces supporting coexistence across species."
+      },
+      "eligibility": {
+        "zh": "面向设计师与学生；可个人或不超过4人团队参赛。",
+        "en": "Designers and students; individual entries or teams of up to four."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2027-02-06T23:59:00+00:00",
+      "submissionDeadline": "2027-02-16T23:59:00+00:00",
+      "registrationOpens": null,
+      "timezone": "UTC",
+      "fee": "paid",
+      "feeText": {
+        "zh": "当前阶段 US$19，后续阶段涨价",
+        "en": "Current stage US$19; higher fees at later stages"
+      },
+      "prize": {
+        "zh": "出版、证书及评审反馈；不承诺固定现金奖金",
+        "en": "Publication, certificates and jury feedback; fixed cash prizes are not guaranteed"
+      },
+      "notes": {
+        "zh": "商业概念竞赛，不承诺落地；以官网最新费率与任务书为准。",
+        "en": "Commercial ideas competition with no implementation commitment. Check the current fee schedule and brief."
+      },
+      "sources": [
+        {
+          "name": "Archiol 官方 / Organizer",
+          "url": "https://www.archiolcompetitions.com/competitions/urban_wildlife_habitat",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "garden-cup-2026",
+      "category": "concept",
+      "region": "domestic",
+      "title": {
+        "zh": "第十二届Garden花园杯植物景观设计竞赛",
+        "en": "12th Garden Cup Planting & Landscape Design Competition"
+      },
+      "originalTitle": "12th Garden Cup Planting & Landscape Design Competition",
+      "location": {
+        "zh": "中国 · 河南鄢陵 / 自选场地",
+        "en": "Yanling, Henan / chosen site, China"
+      },
+      "summary": {
+        "zh": "围绕花木产业转型，开展植物景观规划或详细设计。",
+        "en": "Planting-led planning or detailed design addressing the transition of nursery industries."
+      },
+      "eligibility": {
+        "zh": "院校教学交流竞赛，作品经高校联络人统一报送；职业团队独立参赛资格待核实。",
+        "en": "An academic exchange competition submitted through university contacts; independent professional eligibility is unconfirmed."
+      },
+      "eligibilityTags": [
+        "student"
+      ],
+      "registrationDeadline": "2026-11-30",
+      "submissionDeadline": "2026-12-31T00:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "原文交稿写12月30日24:00；第一轮与第三轮通知邮箱有变化，须核对最新联系人。",
+        "en": "The submission cutoff is written as 24:00 on 30 December. Contact details differ between notices; confirm the latest instructions."
+      },
+      "sources": [
+        {
+          "name": "河南农业大学风景园林学院",
+          "url": "https://fjylxy.henau.edu.cn/info/1012/3596.htm",
+          "kind": "association"
+        },
+        {
+          "name": "第三轮通知转载 / Third notice",
+          "url": "https://www.xingxiancn.com/article/42690",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "yuanji-garden-awards-2026",
+      "category": "award",
+      "region": "domestic",
+      "title": {
+        "zh": "第11届园集奖 · 花园设计大奖赛",
+        "en": "11th Yuanji Garden Design Awards"
+      },
+      "originalTitle": "11th Yuanji Garden Design Awards",
+      "location": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "summary": {
+        "zh": "面向原创花园项目，设设计、植物配置、施工工艺及年度花园奖。",
+        "en": "Awards for original garden projects, including design, planting and construction craftsmanship."
+      },
+      "eligibility": {
+        "zh": "仅限设计师，作品须为本人或公司原创；通过花园集账户申报。",
+        "en": "Designers only; original individual or company work, submitted through a Huayuanji account."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-30",
+      "submissionDeadline": "2026-11-30",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "free",
+      "feeText": {
+        "zh": "转载公告明确不收报名费，待官方确认",
+        "en": "Listing states no entry fee; official confirmation pending"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "截止时间及条件来自转载；主办平台入口为huayuanji.com，后续变更待核对。",
+        "en": "Dates and conditions come from a secondary announcement; confirm updates at huayuanji.com."
+      },
+      "sources": [
+        {
+          "name": "设计赛网征集转载 / Listing",
+          "url": "https://zjideas.com/zjds/hjys/jgsj/31062.html",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "award",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "jinpu-green-design-2026",
+      "category": "concept",
+      "region": "domestic",
+      "title": {
+        "zh": "第十二届金埔杯 · 绿色创意设计大赛",
+        "en": "12th Jinpu Green Creative Design Competition"
+      },
+      "originalTitle": "12th Jinpu Green Creative Design Competition",
+      "location": {
+        "zh": "中国 · 南京",
+        "en": "Nanjing, China"
+      },
+      "summary": {
+        "zh": "包含老山徒步路线、无想山森林步道及绿色园艺等设计赛道。",
+        "en": "Includes hiking routes at Laoshan, forest trails at Wuxiangshan and green horticultural design."
+      },
+      "eligibility": {
+        "zh": "按赛道分学生、专业或公众组，职业设计师须核对对应赛道。",
+        "en": "Student, professional or public categories vary by track; professionals must check the applicable track."
+      },
+      "eligibilityTags": [
+        "open",
+        "student"
+      ],
+      "registrationDeadline": "2026-11-15",
+      "submissionDeadline": "2026-11-15",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "详细赛道规则主要为图片，尚未完成主办方附件复核；未将不同赛道拆成多条。",
+        "en": "Detailed rules are image-based and not fully checked against the organizer brief. Tracks are kept in one record."
+      },
+      "sources": [
+        {
+          "name": "设计师聚合站 / Listing",
+          "url": "https://www.ishejishi.com/competition/comp-general/2026-vision-award-jinpu-green-design.html",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "jiangxi-flower-border-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "2026江西花园杯花境设计与营建竞赛",
+        "en": "Jiangxi Garden Cup Flower Border Design & Construction 2026"
+      },
+      "originalTitle": "Jiangxi Garden Cup Flower Border Design & Construction 2026",
+      "location": {
+        "zh": "中国 · 江西南昌",
+        "en": "Nanchang, Jiangxi, China"
+      },
+      "summary": {
+        "zh": "围绕城市金角银边设计花境，入选设计有现场营建机会。",
+        "en": "Flower-border designs for small urban spaces, with selected schemes proceeding to construction."
+      },
+      "eligibility": {
+        "zh": "江西相关高校学生、企业从业者与花境爱好者；每队不超过5人。",
+        "en": "Jiangxi students, industry practitioners and flower-border enthusiasts; up to five per team."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-01T00:00:00+08:00",
+      "submissionDeadline": "2026-12-01T00:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "free",
+      "feeText": {
+        "zh": "公告正文称不收报名及评审费",
+        "en": "Announcement body states no entry or judging fees"
+      },
+      "prize": {
+        "zh": "详见原始公告",
+        "en": "See original announcement"
+      },
+      "notes": {
+        "zh": "报名已于10月31日24:00结束。页面摘要与正文日期冲突，采用正文11月30日24:00交稿并保留复核提示。",
+        "en": "Registration closed at 24:00 on 31 October. Summary metadata conflicts with the body; the body gives 24:00 on 30 November for submission. Official recheck pending."
+      },
+      "sources": [
+        {
+          "name": "赛观竞赛公告全文 / Announcement",
+          "url": "https://seiguan.com/comp/7383.html",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "beijing-olympic-tower-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "北京奥林匹克塔周边空间品质提升 · 设计招标",
+        "en": "Beijing Olympic Tower Public Realm Design Tender"
+      },
+      "originalTitle": "Beijing Olympic Tower Public Realm Design Tender",
+      "location": {
+        "zh": "中国 · 北京",
+        "en": "Beijing, China"
+      },
+      "summary": {
+        "zh": "约10.61公顷，包含方案、初步、施工图及施工配合的园林景观设计。",
+        "en": "Landscape design for about 10.61 ha, from concept through construction documents and site support."
+      },
+      "eligibility": {
+        "zh": "法人；风景园林专项甲级或综合甲级；负责人高级职称；不接受联合体。",
+        "en": "Registered entity with Grade A landscape or comprehensive design credentials; senior lead; no consortium."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-09T17:00:00+08:00",
+      "submissionDeadline": "2026-11-23T10:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "设计最高投标限价人民币253万元",
+        "en": "Design fee ceiling CNY 2.53 million"
+      },
+      "notes": {
+        "zh": "招标文件下载期已结束，当前仅已获取文件的投标人可能继续提交；不是开放奖金竞赛。",
+        "en": "Document acquisition has closed. Submission may remain possible for existing tenderers only; this is a procurement, not a prize competition."
+      },
+      "sources": [
+        {
+          "name": "北京市公共资源交易服务平台",
+          "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261103/5771572.html",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "beijing-olympic-axis-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "北京奥林匹克中心区中轴及科荟路 · 设计招标",
+        "en": "Beijing Olympic Central Axis & Kehui Road Design Tender"
+      },
+      "originalTitle": "Beijing Olympic Central Axis & Kehui Road Design Tender",
+      "location": {
+        "zh": "中国 · 北京",
+        "en": "Beijing, China"
+      },
+      "summary": {
+        "zh": "约54.6公顷公共空间提升，包含方案至施工图及实施配合。",
+        "en": "Public-realm improvements across about 54.6 ha, with concept-to-construction design services."
+      },
+      "eligibility": {
+        "zh": "风景园林专项甲级或综合甲级；负责人高级职称；接受联合体。",
+        "en": "Grade A landscape or comprehensive design credentials and a senior project lead; consortia accepted."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-10-27T17:00:00+08:00",
+      "submissionDeadline": "2026-11-13T09:30:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "设计最高投标限价人民币716.42万元",
+        "en": "Design fee ceiling CNY 7.1642 million"
+      },
+      "notes": {
+        "zh": "文件获取期已结束。仅供已获取文件的投标人关注当前提交节点。",
+        "en": "Document acquisition has ended. The current milestone is relevant to existing tenderers."
+      },
+      "sources": [
+        {
+          "name": "北京市公共资源交易服务平台",
+          "url": "https://ggzyfw.beijing.gov.cn/jyxxggjtbyqs/20261022/5757313.html",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "zhengzhou-chuangzhi-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "郑州创智科技中心景观设计（二次）",
+        "en": "Zhengzhou Chuangzhi Technology Center Landscape Design"
+      },
+      "originalTitle": "Zhengzhou Chuangzhi Technology Center Landscape Design",
+      "location": {
+        "zh": "中国 · 河南郑州",
+        "en": "Zhengzhou, Henan, China"
+      },
+      "summary": {
+        "zh": "科技中心景观设计二次公开招标，要求包含方案与施工图的商业景观业绩。",
+        "en": "A second landscape design tender for a technology center, requiring commercial landscape design experience."
+      },
+      "eligibility": {
+        "zh": "独立法人；近年商业景观合同≥50万元或面积≥8000㎡等条件；不接受联合体。",
+        "en": "Independent entity with recent commercial landscape contracts of at least CNY 500,000 or 8,000 m², plus stated requirements; no consortium."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-09",
+      "submissionDeadline": "2026-11-24T09:30:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "招标文件0元；保证金及其他费用见文件",
+        "en": "Tender documents CNY 0; verify deposits and other costs"
+      },
+      "prize": {
+        "zh": "第二、三名未中标候选人各人民币5万元技术成果补偿",
+        "en": "CNY 50,000 technical-work compensation for each eligible second/third unsuccessful candidate"
+      },
+      "notes": {
+        "zh": "文件获取期11月3–9日已结束。补偿涉及成果使用权，须阅读合同条款。",
+        "en": "Document acquisition on 3–9 November has ended. Compensation affects usage rights; review the contract."
+      },
+      "sources": [
+        {
+          "name": "郑州市郑东投资集团 · 业主公告",
+          "url": "https://www.zzxqjt.com/zbcg-detail/115.html",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "natural-england-landscape-assets-2026",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "Natural England 农场景观资产决策研究",
+        "en": "Natural England Farm-scale Landscape Asset Decision Framework"
+      },
+      "originalTitle": "Natural England Farm-scale Landscape Asset Decision Framework",
+      "location": {
+        "zh": "英国",
+        "en": "United Kingdom"
+      },
+      "summary": {
+        "zh": "通过文献、农场访谈与现场研究，开发将景观资产价值纳入决策的工具。",
+        "en": "Evidence review, farm interviews and site work informing a tool for landscape-asset decisions."
+      },
+      "eligibility": {
+        "zh": "研究及环境规划咨询团队；具体能力及供应商条件见RFQ。",
+        "en": "Research and environmental-planning teams; detailed supplier criteria are in the RFQ."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-11-27T17:00:00+00:00",
+      "registrationOpens": null,
+      "timezone": "Europe/London",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "估计合同额£49,500（不含VAT）",
+        "en": "Estimated contract £49,500 excluding VAT"
+      },
+      "notes": {
+        "zh": "景观研究采购，不是公园方案竞赛。页面摘要写11月28日，提交正文明确11月27日17:00，采用后者。",
+        "en": "A landscape-research procurement, not a park-design contest. The summary says 28 November; submission instructions explicitly say 27 November, 17:00, used here."
+      },
+      "sources": [
+        {
+          "name": "Sell2Wales 政府采购公告",
+          "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV676231&catID=",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "kildare-newbridge-park-2026",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "Newbridge 公园景观师牵头综合设计团队招标",
+        "en": "Newbridge Public Park Landscape-led Design Team"
+      },
+      "originalTitle": "Newbridge Public Park Landscape-led Design Team",
+      "location": {
+        "zh": "爱尔兰 · Kildare",
+        "en": "Kildare, Ireland"
+      },
+      "summary": {
+        "zh": "为约18英亩公共开放空间提供总体规划、许可、详细设计及施工阶段服务。",
+        "en": "Masterplanning, statutory approval, detailed design and construction-stage services for about 18 acres of public space."
+      },
+      "eligibility": {
+        "zh": "景观师牵头的多专业团队；具体采购资质与财务条件须查eTenders。",
+        "en": "Landscape-led multidisciplinary team; procurement, financial and professional requirements must be checked on eTenders."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-12-02T16:00:00+00:00",
+      "registrationOpens": null,
+      "timezone": "Europe/Dublin",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "框架估计额€1,000,000，不等于保证委托金额",
+        "en": "Estimated framework €1,000,000; not a guaranteed commission"
+      },
+      "notes": {
+        "zh": "TED原文遇验证页面，本条依据可读镜像；详细资格及文件获取要求未核实。",
+        "en": "TED returned a verification page; this record uses an accessible mirror. Detailed eligibility and acquisition requirements are unverified."
+      },
+      "sources": [
+        {
+          "name": "EU Tenders 公告镜像",
+          "url": "https://eutenders.initask.com/notice/733645-2026",
+          "kind": "media"
+        },
+        {
+          "name": "TED 欧盟官方原公告（本轮受限）",
+          "url": "https://ted.europa.eu/en/notice/733645-2026/pdf",
+          "kind": "official"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "knockreer-gardens-2026",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "Killarney国家公园Knockreer花园保护设计",
+        "en": "Knockreer Gardens Conservation Design Tender"
+      },
+      "originalTitle": "Knockreer Gardens Conservation Design Tender",
+      "location": {
+        "zh": "爱尔兰 · Killarney",
+        "en": "Killarney, Ireland"
+      },
+      "summary": {
+        "zh": "为历史花园编制保护设计与发展规划，关注长期保护园艺及解说。",
+        "en": "A conservation design and development plan for historic gardens, including horticultural conservation and interpretation."
+      },
+      "eligibility": {
+        "zh": "具保护园艺、景观规划及相关咨询能力的供应商，细则待核实。",
+        "en": "Suppliers with conservation horticulture, landscape planning and related expertise; full criteria to verify."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2027-01-27T15:00:00+00:00",
+      "registrationOpens": null,
+      "timezone": "Europe/Dublin",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "估计服务额€70,000（不含VAT）",
+        "en": "Estimated service value €70,000 excluding VAT"
+      },
+      "notes": {
+        "zh": "TED原文遇验证页面；时间与范围依据镜像，正式要求以采购文件为准。",
+        "en": "TED returned a verification page. Dates and scope are from a mirror; procurement documents remain authoritative."
+      },
+      "sources": [
+        {
+          "name": "EU Tenders 公告镜像",
+          "url": "https://eutenders.initask.com/notice/651443-2026",
+          "kind": "media"
+        },
+        {
+          "name": "TED 欧盟官方原公告（本轮受限）",
+          "url": "https://ted.europa.eu/en/notice/651443-2026/pdf",
+          "kind": "official"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "chengdu-tod-park-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "四川师大站静桉南TOD上盖公园景观方案设计",
+        "en": "Jingan South TOD Deck Park Landscape Design"
+      },
+      "originalTitle": "Jingan South TOD Deck Park Landscape Design",
+      "location": {
+        "zh": "中国 · 四川成都",
+        "en": "Chengdu, Sichuan, China"
+      },
+      "summary": {
+        "zh": "约3.6公顷上盖公园，含概念、方案、扩初及施工配合。",
+        "en": "A deck park of about 3.6 ha, from concept to developed design and construction support."
+      },
+      "eligibility": {
+        "zh": "法人及2022年以来至少1项景观方案业绩；不接受联合体。",
+        "en": "Registered entity with at least one landscape concept-design project since 2022; no consortium."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-11-17T10:30:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "未核实设计费上限",
+        "en": "Design fee ceiling not verified"
+      },
+      "notes": {
+        "zh": "目前可读的是招标转载/检索摘要，原始交易平台与文件获取期尚待核对，不能据此认定仍可新报名。",
+        "en": "Currently based on a secondary notice or search excerpt. The original portal and acquisition window need verification; new-entry availability is not confirmed."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://www.gongchengzhaobiao.cn/news-2a4565e4a4e1279e9a04249305c3baba/",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "wangcong-park-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "望丛文化园二期公园勘察设计",
+        "en": "Wangcong Cultural Park Phase II Survey & Design"
+      },
+      "originalTitle": "Wangcong Cultural Park Phase II Survey & Design",
+      "location": {
+        "zh": "中国 · 四川成都",
+        "en": "Chengdu, Sichuan, China"
+      },
+      "summary": {
+        "zh": "约4.6公顷新建公园的勘察及设计服务。",
+        "en": "Survey and design services for a new park of about 4.6 ha."
+      },
+      "eligibility": {
+        "zh": "要求勘察与设计资质，接受不超过3家联合体；细则待原文复核。",
+        "en": "Survey and design credentials; consortia of up to three are indicated, subject to official recheck."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-11-23T09:30:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "费用与限价待核实",
+        "en": "Fees and ceiling to verify"
+      },
+      "notes": {
+        "zh": "目前可读的是招标转载/检索摘要，原始交易平台与文件获取期尚待核对，不能据此认定仍可新报名。",
+        "en": "Currently based on a secondary notice or search excerpt. The original portal and acquisition window need verification; new-entry availability is not confirmed."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://www.gongchengzhaobiao.cn/news-719ff140bc2844de3d301bdd6e4a5557/",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "search-excerpt",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "ningbo-fourth-bridge-park-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "宁波福明未来城四号桥公园设计",
+        "en": "Ningbo Fuming Future City Fourth Bridge Park Design"
+      },
+      "originalTitle": "Ningbo Fuming Future City Fourth Bridge Park Design",
+      "location": {
+        "zh": "中国 · 浙江宁波",
+        "en": "Ningbo, Zhejiang, China"
+      },
+      "summary": {
+        "zh": "约4.63公顷公园，包含建筑配套及景观方案至施工图。",
+        "en": "A park of about 4.63 ha, with associated buildings and landscape concept-to-construction documents."
+      },
+      "eligibility": {
+        "zh": "景观甲级与建筑设计乙级等组合资质；可2家联合；负责人一级注册建筑师。",
+        "en": "Combined landscape Grade A and architecture credentials; consortia up to two; lead is a first-class registered architect."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-30",
+      "submissionDeadline": "2026-11-30T14:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "保证金转载称人民币4万元，费用另查",
+        "en": "Listing states a CNY 40,000 deposit; other costs to verify"
+      },
+      "notes": {
+        "zh": "11月9日更正转载将原11月16日截止延至11月30日14:00，采用较新通知；须在浙江交易平台核对最新版本。",
+        "en": "A 9 November amendment listing extends the original 16 November cutoff to 30 November, 14:00. Verify the latest version on Zhejiang’s portal."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://www.lfzct.com/info/LZZZZKshHGUCLERCzUc2zZZZZWpA%3D%3D?city=%E5%AE%81%E6%B3%A2%E5%B8%82",
+          "kind": "media"
+        },
+        {
+          "name": "原公告转载 / Original listing",
+          "url": "https://mydesignplus.cn/ComNews_detail.asp?ID=2303",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "full-text"
+    },
+    {
+      "id": "jiajiang-park-restoration-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "夹江漹城片区城市公园生态修复 · 设计施工总承包",
+        "en": "Jiajiang Yancheng Urban Park Ecological Restoration EPC"
+      },
+      "originalTitle": "Jiajiang Yancheng Urban Park Ecological Restoration EPC",
+      "location": {
+        "zh": "中国 · 四川乐山",
+        "en": "Leshan, Sichuan, China"
+      },
+      "summary": {
+        "zh": "城市公园生态修复设计施工总承包，包含市政及景观协同。",
+        "en": "Design-and-build procurement for ecological restoration of urban parks and related municipal works."
+      },
+      "eligibility": {
+        "zh": "要求市政设计及施工相关资质和业绩；可通过具备条件的联合体参与，须复核。",
+        "en": "Municipal design/construction credentials and experience; verify the permitted consortium structure."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-11-27T09:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "设计及施工合同金额待核实",
+        "en": "Design/build contract value to verify"
+      },
+      "notes": {
+        "zh": "目前可读的是招标转载/检索摘要，原始交易平台与文件获取期尚待核对，不能据此认定仍可新报名。",
+        "en": "Currently based on a secondary notice or search excerpt. The original portal and acquisition window need verification; new-entry availability is not confirmed."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://sc.zhaobiao.lanyancloud.com/notice/e66f571137934890",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "search-excerpt",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "dingbian-desert-park-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "定边马莲滩沙漠公园西片区提升设计",
+        "en": "Dingbian Maliantan Desert Park West Upgrade Design"
+      },
+      "originalTitle": "Dingbian Maliantan Desert Park West Upgrade Design",
+      "location": {
+        "zh": "中国 · 陕西榆林",
+        "en": "Yulin, Shaanxi, China"
+      },
+      "summary": {
+        "zh": "约53.13公顷，涵盖公园服务、运动、亲子及城市调蓄生态空间。",
+        "en": "About 53.13 ha spanning park services, sports, family use and urban water-retention ecology."
+      },
+      "eligibility": {
+        "zh": "设计服务供应商，具体专业资质及负责人要求待核实。",
+        "en": "Design-service suppliers; detailed credentials and lead requirements to verify."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-11-11T17:00:00+08:00",
+      "submissionDeadline": "2026-12-01T09:30:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "项目总投资约人民币1.6975亿元，不是设计费",
+        "en": "Total project investment about CNY 169.75m, not the design fee"
+      },
+      "notes": {
+        "zh": "转载称11月11日17:00结束文件获取，已过该节点；仅现有投标人可能继续提交，原文待核实。",
+        "en": "The listing gives an acquisition cutoff of 11 November, 17:00, now passed. Only existing tenderers may be able to submit; official recheck pending."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://sn.zhaobiao.lanyancloud.com/notice/72cf6b374d2d4d1a",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "search-excerpt"
+    },
+    {
+      "id": "jinan-sports-park-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "济南起步区体育公园全过程咨询",
+        "en": "Jinan Start-up Area Sports Park Integrated Consultancy"
+      },
+      "originalTitle": "Jinan Start-up Area Sports Park Integrated Consultancy",
+      "location": {
+        "zh": "中国 · 山东济南",
+        "en": "Jinan, Shandong, China"
+      },
+      "summary": {
+        "zh": "约8.88公顷体育公园的勘测、方案、初设及建设咨询。",
+        "en": "Survey, concept, preliminary design and project consultancy for an approximately 8.88 ha sports park."
+      },
+      "eligibility": {
+        "zh": "综合咨询团队，转载称接受不超过3家联合体；具体资质待核实。",
+        "en": "Integrated consultancy team; listing indicates consortia up to three, with detailed criteria to verify."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-11-13T09:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "合同估算价人民币300万元",
+        "en": "Estimated consultancy contract CNY 3m"
+      },
+      "notes": {
+        "zh": "目前可读的是招标转载/检索摘要，原始交易平台与文件获取期尚待核对，不能据此认定仍可新报名。",
+        "en": "Currently based on a secondary notice or search excerpt. The original portal and acquisition window need verification; new-entry availability is not confirmed."
+      },
+      "sources": [
+        {
+          "name": "招标公告转载 / Procurement listing",
+          "url": "https://sd.zhaobiao.lanyancloud.com/notice/af946b2f1e284e38",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "tender",
+      "reviewMethod": "search-excerpt",
+      "entryStatus": "unknown"
+    },
+    {
+      "id": "minab-memorial-2026",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "米纳卜墓园景观与纪念空间国际竞赛",
+        "en": "Minab Memorial Landscape International Competition"
+      },
+      "originalTitle": "Minab Memorial Landscape International Competition",
+      "location": {
+        "zh": "伊朗 · 米纳卜",
+        "en": "Minab, Iran"
+      },
+      "summary": {
+        "zh": "将墓园及周边组织为连贯的纪念性景观与公共空间。",
+        "en": "A coherent memorial landscape linking a cemetery and its surrounding public spaces."
+      },
+      "eligibility": {
+        "zh": "建筑、城市设计或相关专业学士及以上个人或合资格机构；学生可加入合资格团队。",
+        "en": "Individuals with relevant degrees or qualified practices; students may join an eligible team."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-10-27",
+      "submissionDeadline": "2026-11-17T23:59:00+03:30",
+      "registrationOpens": null,
+      "timezone": "Asia/Tehran",
+      "fee": "free",
+      "feeText": {
+        "zh": "组委会供稿称免费，待官网复核",
+        "en": "Organizer-supplied report states free; official-site check pending"
+      },
+      "prize": {
+        "zh": "一等奖120亿伊朗里亚尔",
+        "en": "First prize IRR 12 billion"
+      },
+      "notes": {
+        "zh": "报名已结束，仅已报名者可关注11月17日交稿；本轮未完成官网规则复核。",
+        "en": "Registration is closed; the 17 November deadline concerns registered entrants. Official-site rule check remains pending."
+      },
+      "sources": [
+        {
+          "name": "AKI组委会供稿 / Organizer-supplied report",
+          "url": "https://www.aki.com.cn/news/detail/44?l=cn",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-11T22:34:06Z",
+      "opportunityType": "competition",
+      "reviewMethod": "full-text"
     }
   ]
 }

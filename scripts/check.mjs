@@ -8,6 +8,7 @@ const base={category:'project',region:'domestic',title:bi('竞赛','Competition'
 const items=[{...base,id:'registered',registrationDeadline:'2026-11-10T17:00:00+08:00'},{...base,id:'archive',registrationDeadline:'2026-11-03',submissionDeadline:'2026-11-03'},{...base,id:'upcoming',region:'international',registrationOpens:'2026-12-07',registrationDeadline:'2026-12-09',submissionDeadline:'2026-12-09'},{...base,id:'mixed',title:bi('三宝树测试','Wetland test'),eligibilityTags:['open','qualified'],fee:'free',verification:'official',registrationDeadline:'2026-11-13'},{...base,id:'award',category:'award',region:'international',location:bi('多伦多','Toronto'),fee:'free'}];
 const now=new Date('2026-11-11T04:49:26Z');
 assert.equal(stateOf(items[0],now),'registered','Closed registration must not imply open entry');
+assert.equal(stateOf({...items[0],registrationDeadline:null,entryStatus:'unknown'},now),'uncertain','Unknown acquisition status must not be labeled open');
 assert.equal(stateOf(items[1],now),'archived');assert.equal(stateOf(items[2],now),'upcoming');
 assert.equal(passed('2026-11-11',new Date('2026-11-11T23:59:00Z')),false,'Unknown cutoff must not be invented as midnight');
 assert.equal(passed('2026-11-11',new Date('2026-11-11T16:01:00Z'),'Asia/Shanghai'),true);
@@ -30,4 +31,4 @@ const source=js.slice(js.indexOf('const translations = ')+21,js.indexOf(';\nlet 
 const translations=vm.runInNewContext(`(${source})`,{}, {timeout:1000});
 for(const match of html.matchAll(/data-(?:i18n|placeholder)="([^"]+)"/g))for(const lang of ['zh','en'])assert(translations[lang][match[1]],`Missing ${lang} translation: ${match[1]}`);
 assert.deepEqual(Object.keys(translations.zh).sort(),Object.keys(translations.en).sort(),'Translation keys must match');
-console.log('Date boundaries, combined filters, source safety, static assets and bilingual completeness checks passed.');
+console.log('Date boundaries, unknown-entry status, combined filters, source safety, static assets and bilingual completeness checks passed.');
