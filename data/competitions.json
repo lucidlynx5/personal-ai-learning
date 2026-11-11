@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-11T04:49:26Z",
+  "updateIntervalDays": 2,
+  "automation": {
+    "status": "enabled",
+    "taskId": "Automation_181c60c7f7bc81918524186435f17f0a",
+    "nextRunAt": "2026-11-13T08:00:00+08:00",
+    "lastRunStatus": "not_run",
+    "lastAttemptAt": null
+  },
+  "runSummary": {
+    "zh": "初版核对10条机会；官方核对5条，部分核对1条，其余保留复核说明。",
+    "en": "Initial review: 10 opportunities; 5 checked on official sites, 1 partially verified, with remaining uncertainties labeled."
+  },
+  "sources": [
+    {
+      "name": "Landezine",
+      "url": "https://landezine.com/",
+      "kind": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "World Landscape Architecture",
+      "url": "https://worldlandscapearchitect.com/",
+      "kind": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "ArchDaily",
+      "url": "https://www.archdaily.com/architecture-competitions",
+      "kind": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "有方 · Archiposition",
+      "url": "https://www.archiposition.com/",
+      "kind": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "设计竞赛网",
+      "url": "https://www.shejijingsai.com/category/dasai/huanjing",
+      "kind": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "Streetlife Competition",
+      "url": "https://streetlifedesigncompetition.com/",
+      "kind": "official",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "三宝树湿地竞赛官网",
+      "url": "https://nm-spswcp.hk/en/design-competition/",
+      "kind": "official",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "APLD",
+      "url": "https://www.apld.org/landscape-design-awards-program",
+      "kind": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "ICAAF",
+      "url": "https://www.icaaf.ca/competition",
+      "kind": "official",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "Carré des Jardiniers",
+      "url": "https://www.carre-des-jardiniers.com/",
+      "kind": "official",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "NCASLA",
+      "url": "https://www.ncasla.org/professional-and-student-awards",
+      "kind": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "Toronto Society of Architects",
+      "url": "https://torontosocietyofarchitects.ca/",
+      "kind": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "name": "中国风景园林学会",
+      "url": "https://www.chsla.org.cn/",
+      "kind": "association",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "深圳设计竞赛 · SZDC",
+      "url": "https://www.szdesigncenter.com/",
+      "kind": "official",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "谷德 · gooood",
+      "url": "https://www.gooood.cn/",
+      "kind": "media",
+      "status": "planned",
+      "lastChecked": null
+    },
+    {
+      "name": "Bustler",
+      "url": "https://bustler.net/competitions",
+      "kind": "media",
+      "status": "planned",
+      "lastChecked": null
+    }
+  ],
+  "competitions": [
+    {
+      "id": "sam-po-shue-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "三宝树湿地公园管理处及观景台设计竞赛",
+        "en": "Sam Po Shue Wetland Design Competition"
+      },
+      "originalTitle": "Between Vault and Waters",
+      "location": {
+        "zh": "中国 · 香港",
+        "en": "Hong Kong, China"
+      },
+      "summary": {
+        "zh": "在湿地与鱼塘之间，设计管理处或观景台。设专业、青年专业与公开组。",
+        "en": "A management office and viewing deck in a wetland setting, with professional, young-professional and open groups."
+      },
+      "eligibility": {
+        "zh": "公开组领队须满18岁；专业组领队须符合指定专业资格，青年专业组另有年龄限制。",
+        "en": "Open-group leaders must be 18+. Professional-group leaders need specified credentials; the young-professional group has an age limit."
+      },
+      "eligibilityTags": [
+        "open",
+        "qualified",
+        "young"
+      ],
+      "registrationDeadline": "2026-11-13",
+      "submissionDeadline": "2026-12-04T17:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Hong_Kong",
+      "fee": "free",
+      "feeText": {
+        "zh": "免费",
+        "en": "Free"
+      },
+      "prize": {
+        "zh": "分组设奖，金额参见竞赛文件",
+        "en": "Group prizes; see competition documents"
+      },
+      "notes": {
+        "zh": "报名与交稿是两个节点；首阶段须按指定地点与时段送达。资格按组别判断。",
+        "en": "Registration and delivery are separate deadlines. Check the physical delivery requirements and group-specific rules."
+      },
+      "sources": [
+        {
+          "name": "赛事官网 / Competition website",
+          "url": "https://nm-spswcp.hk/en/design-competition/",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "shanghai-garden-2027",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "2027上海花园设计方案征集",
+        "en": "Shanghai Garden Design Open Call 2027"
+      },
+      "originalTitle": "一方花园，世界创想",
+      "location": {
+        "zh": "中国 · 上海",
+        "en": "Shanghai, China"
+      },
+      "summary": {
+        "zh": "面向80–200㎡城市开放空间，征集可落地的小型花园方案。",
+        "en": "A call for buildable small gardens in 80–200 m² urban open spaces."
+      },
+      "eligibility": {
+        "zh": "全球高校师生与专业设计从业者分组参赛；专业组细则需向主办方复核。",
+        "en": "Separate academic and professional groups; confirm detailed professional-group rules with the organizer."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2026-11-15T23:59:00+08:00",
+      "submissionDeadline": "2026-11-15T23:59:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "公告未明确，待核实",
+        "en": "Not stated; verify"
+      },
+      "prize": {
+        "zh": "专业组最高人民币30,000元设计费，须另签协议",
+        "en": "Professional group: up to CNY 30,000 design fee, subject to agreement"
+      },
+      "notes": {
+        "zh": "目前依据媒体转载，待核对主办方原始公告；获选方案拟于2027年4月展出。",
+        "en": "Based on a media announcement; organizer confirmation pending. Selected gardens are planned for an April 2027 exhibition."
+      },
+      "sources": [
+        {
+          "name": "设计竞赛网 / Design Competition",
+          "url": "https://www.shejijingsai.com/2026/10/1667307.html",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "streetlife-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "Streetlife「失落场地」设计竞赛",
+        "en": "Streetlife Design Competition 2026–27"
+      },
+      "originalTitle": "Lost Sites — Streetlife × Landezine",
+      "location": {
+        "zh": "国际 · 自选场地",
+        "en": "Worldwide · choose your site"
+      },
+      "summary": {
+        "zh": "用不超过1公顷的公共空间介入，重新思考城市中被忽略的场地。",
+        "en": "Reimagine an overlooked urban site through a public-space intervention of up to one hectare."
+      },
+      "eligibility": {
+        "zh": "每队至少一名景观专业成员；成员须生于1990年12月11日之后；既有商业事务所不适用。",
+        "en": "At least one landscape member per team; members born after 11 December 1990. Established commercial offices are ineligible."
+      },
+      "eligibilityTags": [
+        "young"
+      ],
+      "registrationDeadline": "2026-11-30",
+      "submissionDeadline": "2026-12-11",
+      "registrationOpens": null,
+      "timezone": null,
+      "fee": "paid",
+      "feeText": {
+        "zh": "当前阶段每队 €100",
+        "en": "Current registration: €100 / team"
+      },
+      "prize": {
+        "zh": "一等奖 €7,000",
+        "en": "First prize €7,000"
+      },
+      "notes": {
+        "zh": "纯概念竞赛，不承诺落地。官方未在本页注明截止时刻与时区。",
+        "en": "Conceptual only; no implementation. Cutoff time and timezone are not stated on this page."
+      },
+      "sources": [
+        {
+          "name": "Streetlife 官方征集 / Official call",
+          "url": "https://streetlifedesigncompetition.com/call-for-entries-now-open-streetlife-design-competition/",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "persian-garden-2027",
+      "category": "concept",
+      "region": "international",
+      "title": {
+        "zh": "波斯花园亭阁国际设计竞赛",
+        "en": "Persian Garden Suite Competition"
+      },
+      "originalTitle": "Persian Garden Suite 2026–2027",
+      "location": {
+        "zh": "加拿大 · 多伦多",
+        "en": "Toronto, Canada"
+      },
+      "summary": {
+        "zh": "以波斯花园的水、几何与文化记忆，回应当代城市中的花园亭阁。",
+        "en": "Reinterpret Persian garden principles in a contemporary garden pavilion for Toronto."
+      },
+      "eligibility": {
+        "zh": "面向国际专业人士与学生；可个人参赛，团队不超过3人。",
+        "en": "Open to international professionals and students; individuals or teams of up to three."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2026-11-30",
+      "submissionDeadline": "2027-03-31",
+      "registrationOpens": null,
+      "timezone": null,
+      "fee": "unknown",
+      "feeText": {
+        "zh": "当前已查页面未明确",
+        "en": "Not stated on reviewed pages"
+      },
+      "prize": {
+        "zh": "一等奖 CAD 1,500",
+        "en": "First prize CAD 1,500"
+      },
+      "notes": {
+        "zh": "资格与奖金已查官网；报名和提交日期来自多伦多建筑师协会，仍需对照官方附件。",
+        "en": "Eligibility and prizes checked on the organizer site; dates are from TSA and need cross-checking against the official brief."
+      },
+      "sources": [
+        {
+          "name": "ICAAF 官方 / Organizer",
+          "url": "https://www.icaaf.ca/competition",
+          "kind": "official"
+        },
+        {
+          "name": "Toronto Society of Architects",
+          "url": "https://torontosocietyofarchitects.ca/events/international-architectural-design-competition-2026-2027-persian-garden-suite/",
+          "kind": "association"
+        }
+      ],
+      "verification": "partial",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "seoul-garden-2027",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "2027首尔国际花园展作家花园征集",
+        "en": "Seoul International Garden Show 2027"
+      },
+      "originalTitle": "Show Garden Competition — Namsan",
+      "location": {
+        "zh": "韩国 · 首尔",
+        "en": "Seoul, South Korea"
+      },
+      "summary": {
+        "zh": "为南山公园周边设计永久展示花园，展后继续保留。",
+        "en": "Design a permanent show garden near Namsan Park, retained after the exhibition."
+      },
+      "eligibility": {
+        "zh": "详细资格须核对官方竞赛文件。",
+        "en": "Detailed eligibility requires confirmation from the official brief."
+      },
+      "eligibilityTags": [
+        "unknown"
+      ],
+      "registrationDeadline": "2026-12-09",
+      "submissionDeadline": "2026-12-09",
+      "registrationOpens": "2026-12-07",
+      "timezone": "Asia/Seoul",
+      "fee": "free",
+      "feeText": {
+        "zh": "媒体公告标注免费，待官方确认",
+        "en": "Listed as free by media; organizer confirmation pending"
+      },
+      "prize": {
+        "zh": "奖金及建造预算待核实",
+        "en": "Prizes and construction budget to verify"
+      },
+      "notes": {
+        "zh": "媒体正文写16:00（韩国时间），结构化字段写00:00；因此仅展示日期，截止时刻待官方核实。报名与提交窗口为12月7–9日。",
+        "en": "The media body says 16:00 KST while its structured field says 00:00. Only the date is shown pending official verification. Entry window: 7–9 December."
+      },
+      "sources": [
+        {
+          "name": "ArchDaily 征集公告 / Announcement",
+          "url": "https://www.archdaily.com/1188400/open-call-show-garden-competition-for-seoul-international-garden-show-2027",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "carre-jardiniers-2027",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "2027 Carré des Jardiniers 花园竞赛",
+        "en": "Carré des Jardiniers 2027"
+      },
+      "originalTitle": "Paysalia — Carré des Jardiniers",
+      "location": {
+        "zh": "法国 · 里昂",
+        "en": "Lyon, France"
+      },
+      "summary": {
+        "zh": "通过作品集选拔花园设计人才，入围者将在Paysalia现场营建花园。",
+        "en": "A portfolio-led selection leading to garden construction at Paysalia for the finalists."
+      },
+      "eligibility": {
+        "zh": "面向景观设计师与承建者，申请需3–5个项目作品集；详细地域及资质条件参见规则。",
+        "en": "Landscape designers and contractors; a portfolio of 3–5 projects is required. Check regulations for geographic and credential rules."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2026-12-31",
+      "submissionDeadline": "2026-12-31",
+      "registrationOpens": null,
+      "timezone": "Europe/Paris",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "当前公告未明确",
+        "en": "Not stated in reviewed announcement"
+      },
+      "prize": {
+        "zh": "入围营建与专业荣誉，奖金待核实",
+        "en": "Finalist gardens and recognition; cash prize to verify"
+      },
+      "notes": {
+        "zh": "12月31日是申请截止，不是花园深化方案交稿截止。",
+        "en": "31 December is the application deadline, not the later developed-garden submission deadline."
+      },
+      "sources": [
+        {
+          "name": "Carré des Jardiniers 官方 / Official",
+          "url": "https://www.carre-des-jardiniers.com/en/applications-2027-carre-des-jardiniers-are-now-open",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "ncasla-awards-2027",
+      "category": "award",
+      "region": "international",
+      "title": {
+        "zh": "2027 NCASLA 专业与学生设计奖",
+        "en": "NCASLA Professional & Student Awards 2027"
+      },
+      "originalTitle": "North Carolina ASLA Awards",
+      "location": {
+        "zh": "美国 · 北卡罗来纳州",
+        "en": "North Carolina, USA"
+      },
+      "summary": {
+        "zh": "涵盖景观设计、住宅、规划分析、研究与城市设计等类别的年度奖项。",
+        "en": "Annual awards for landscape design, residential work, planning, research and urban design."
+      },
+      "eligibility": {
+        "zh": "有北卡罗来纳州地域关联要求；会员及非会员均可，其他专业须预先获准。",
+        "en": "North Carolina eligibility applies; members and nonmembers may enter. Other professions require pre-approval."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "registrationDeadline": "2027-01-08T17:00:00-05:00",
+      "submissionDeadline": "2027-01-08T17:00:00-05:00",
+      "registrationOpens": null,
+      "timezone": "America/New_York",
+      "fee": "paid",
+      "feeText": {
+        "zh": "收费，金额参见官方申报包",
+        "en": "Paid; see official entry packet"
+      },
+      "prize": {
+        "zh": "专业奖项与行业认可",
+        "en": "Professional awards and recognition"
+      },
+      "notes": {
+        "zh": "除Landmark类别外，项目须在2020年1月1日之后完成；地域门槛保留，不预先排除。",
+        "en": "Except for Landmark entries, projects must be completed after 1 January 2020. Regional eligibility is retained as a filterable requirement."
+      },
+      "sources": [
+        {
+          "name": "NCASLA 官方 / Official",
+          "url": "https://www.ncasla.org/professional-and-student-awards",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "apld-awards-2027",
+      "category": "award",
+      "region": "international",
+      "title": {
+        "zh": "2027 APLD 国际景观设计奖",
+        "en": "APLD International Landscape Design Awards 2027"
+      },
+      "originalTitle": "Association of Professional Landscape Designers",
+      "location": {
+        "zh": "国际 · 美国主办",
+        "en": "International · US organizer"
+      },
+      "summary": {
+        "zh": "评选住宅、小型花园、植物配置、展示花园、细部及户外照明等作品。",
+        "en": "Awards for residential landscapes, small gardens, planting, show gardens, details and outdoor lighting."
+      },
+      "eligibility": {
+        "zh": "参赛者与项目条件详见官方申报包，当前尚未核实全部细则。",
+        "en": "Full entrant and project eligibility is in the official entry packet and has not yet been fully reviewed."
+      },
+      "eligibilityTags": [
+        "unknown"
+      ],
+      "registrationDeadline": "2027-01-15",
+      "submissionDeadline": "2027-01-15",
+      "registrationOpens": null,
+      "timezone": "America/New_York",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "申报费用待核实",
+        "en": "Entry fee to verify"
+      },
+      "prize": {
+        "zh": "金、银、铜奖",
+        "en": "Gold, Silver and Bronze awards"
+      },
+      "notes": {
+        "zh": "官网已确认征集开放与截止日期；费用、会员及项目条件需查申报包。",
+        "en": "The organizer confirms that entries are open and gives the deadline. Fees, membership and project conditions require the entry packet."
+      },
+      "sources": [
+        {
+          "name": "APLD 官方 / Official",
+          "url": "https://www.apld.org/landscape-design-awards-program",
+          "kind": "official"
+        }
+      ],
+      "verification": "official",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "jiashan-2026",
+      "category": "project",
+      "region": "domestic",
+      "title": {
+        "zh": "善城微筑：嘉善城乡更新创意设计大赛",
+        "en": "Jiashan Urban & Rural Renewal Design Competition"
+      },
+      "originalTitle": "善城微筑 · 2026",
+      "location": {
+        "zh": "中国 · 浙江嘉善",
+        "en": "Jiashan, Zhejiang, China"
+      },
+      "summary": {
+        "zh": "三个真实场地涵盖乡村闲置空间、银杏广场与亭桥公园更新。",
+        "en": "Three real sites span rural reuse, Ginkgo Square and Tingqiao Park renewal."
+      },
+      "eligibility": {
+        "zh": "向国内外青年设计师与相关专业师生开放，团队不超过6人。",
+        "en": "Open to young designers and related academic groups worldwide; teams of up to six."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2026-11-10T17:00:00+08:00",
+      "submissionDeadline": "2026-11-30T17:00:00+08:00",
+      "registrationOpens": null,
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "已查公告未明确",
+        "en": "Not stated in reviewed announcement"
+      },
+      "prize": {
+        "zh": "最高人民币100,000元（税前）",
+        "en": "Top prize CNY 100,000, before tax"
+      },
+      "notes": {
+        "zh": "报名已截止，仅已报名团队仍可交稿。媒体刊载主办方推广公告，后续变化仍需官方确认。",
+        "en": "Registration is closed; submissions remain open for registered teams. The source is an organizer-promoted media announcement; check official updates."
+      },
+      "sources": [
+        {
+          "name": "有方 / Archiposition",
+          "url": "https://www.archiposition.com/items/9a2caed32b",
+          "kind": "media"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    },
+    {
+      "id": "chaumont-garden-2027",
+      "category": "project",
+      "region": "international",
+      "title": {
+        "zh": "2027肖蒙国际花园节设计竞赛",
+        "en": "Chaumont International Garden Festival 2027"
+      },
+      "originalTitle": "International Garden Festival — 35th edition",
+      "location": {
+        "zh": "法国 · 肖蒙",
+        "en": "Chaumont-sur-Loire, France"
+      },
+      "summary": {
+        "zh": "当代花园设计征集。已过申请截止日期，保留在归档供参考。",
+        "en": "Contemporary garden design call. Applications are closed; retained in the archive."
+      },
+      "eligibility": {
+        "zh": "面向设计师、园艺师、建筑师与相关专业学生，详见原始任务书。",
+        "en": "Designers, gardeners, architects and related students; consult the original brief."
+      },
+      "eligibilityTags": [
+        "open"
+      ],
+      "registrationDeadline": "2026-11-03",
+      "submissionDeadline": "2026-11-03",
+      "registrationOpens": null,
+      "timezone": "Europe/Paris",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "待核实",
+        "en": "To verify"
+      },
+      "prize": {
+        "zh": "入选花园展出，其他奖励待核实",
+        "en": "Selected garden exhibition; other awards to verify"
+      },
+      "notes": {
+        "zh": "当前为协会及专业媒体信息，未完成官方原始文件复核。",
+        "en": "Based on association and specialist-media information; original official brief not yet verified."
+      },
+      "sources": [
+        {
+          "name": "BDLA 专业协会 / Association",
+          "url": "https://www.bdla.de/en/news/6006-chaumont-international-garden-festival-competition-launched",
+          "kind": "association"
+        }
+      ],
+      "verification": "secondary",
+      "firstSeen": "2026-11-11T04:49:26Z",
+      "updatedAt": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-11T04:49:26Z"
+    }
+  ]
+}
