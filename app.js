@@ -1,4 +1,4 @@
-import {DAY, localDate, stateOf, nextDeadline, daysUntil, filterItems, escapeHTML as esc, safeURL} from './core.mjs';
+import {DAY, localDate, stateOf, nextDeadline, daysUntil, filterItems, escapeHTML as esc, safeURL} from './core.mjs?v=la-news-2';
 const $ = id => document.getElementById(id);
 const translations = {
 zh: {
