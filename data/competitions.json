@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T00:31:05Z",
+  "updatedAt": "2026-11-15T00:17:02Z",
   "updateIntervalDays": 2,
   "automation": {
     "status": "enabled",
     "taskId": "Automation_181c60c7f7bc81918524186435f17f0a",
-    "nextRunAt": "2026-11-15T08:00:00+08:00",
+    "nextRunAt": "2026-11-17T08:00:00+08:00",
     "lastRunStatus": "partial",
-    "lastAttemptAt": "2026-11-13T00:31:05Z",
+    "lastAttemptAt": "2026-11-15T00:17:02Z",
     "researchTarget": {
       "zh": "至少30条未过当前提交截止的相关机会；不得为数量编造或保留过期条目。",
       "en": "Target at least 30 relevant non-expired opportunities; never invent or retain expired entries to meet the number."
     }
   },
   "runSummary": {
-    "zh": "2026-11-13：新增7条，实质修订3条既有记录，共复核8条既有记录。覆盖中国大陆、香港及台澳线索、欧洲、北美、韩国，并定向搜索多国公共采购；未对来源目录全量抓取。首尔以市府简章更正为12月9日16:00 KST；德国奖开报日冲突置空。新增含北京设计采购、釜山生态艺术、美国公园资格征集与研究资助；部分仅协会或官方摘要证据，已标partial/secondary及报名未知。TED405、首尔市门户、澎湖超时、ArchLeague403及部分附件受阻；目录旧缓存、台采购批次日期冲突、已授标/养护/广泛商业奖不作开放机会充数。保留全部旧记录和firstSeen；各条核查程度不同，未截止不等于仍可新报名。 本次快照42条提交未截止：开放24、待开报1、报名/文件获取已结束仍可提交8、状态待核实9；另有1条归档。开放是现有证据下的索引状态，并非本轮逐条重新认证。",
-    "en": "13 November:7 additions,3 substantive revisions and8 existing records reviewed. Targeted mainland China, Hong Kong/Taiwan/Macao leads, Europe, North America, Korea and multinational public procurement; not a full directory crawl. Seoul cutoff corrected from the city brief to9 December16:00 KST; conflicting German opening dates set null. Additions include Beijing design procurement, Busan ecological art, US park qualification and research funding. Association-only/search-excerpt evidence marked partial/secondary with unknown entry access where appropriate. TED405, Seoul portal, Penghu timeout, ArchLeague403 and some attachments blocked; stale indexes, conflicting Taiwan batches, awarded/maintenance contracts and broad commercial awards excluded from open-call additions. All old records/firstSeen retained; unexpired does not mean open for new entry. Snapshot:42 unexpired submissions—24 open,1 upcoming,8 registered-only and9 uncertain;1 archived. Open reflects accumulated evidence, not a fresh full verification of every record."
+    "zh": "2026-11-15：新增3条（无锡城市更新、上海生态公园体系规划、台湾公共场域共创），实质修订4条，复核15条既有记录。无锡8个现场合并一条；上海为11月14日发布线索，仅转载摘要、报名状态待核实；台湾共创仅行政机关申请，不是设计师直接征稿。核实APLD 200/225/525美元费用及建成至少2年规则、NCASLA开报日、Paul Gunther纽约市项目要求，并据官方申请页升级Bloom。覆盖大陆、香港及台澳线索、欧洲、北美、韩国；多国公共采购采用定向搜索，未全量遍历目录。TED机器人核验、TDRI403、部分PDF及采购转载页受阻，未绕过；广泛设计奖、过期/结果、普通施工养护不计入新增。保留旧ID/firstSeen及归档；未读条目不刷新lastChecked，部分证据仍为secondary/partial。 快照43条提交未截止：开放25、待开报1、报名/文件获取已结束8、报名状态待核实9；另3条归档。状态基于累计证据，并非本轮逐条重新认证。",
+    "en": "15 November:3 additions (Wuxi renewal, Shanghai ecological-park system planning, Taiwan public-space co-creation),4 substantive revisions and15 existing records reviewed. Wuxi's8 sites remain one record. Shanghai is a14 November lead from reprint excerpts with unknown entry access; Taiwan call accepts administrative authorities, not direct designer applications. Verified APLD USD200/225/525 fees and two-year installation rule, NCASLA opening, Paul Gunther NYC project requirement, and upgraded Bloom from its official application page. Covered mainland China, Hong Kong/Taiwan/Macao leads, Europe, North America and Korea through targeted searches, including multinational public procurement; no full directory crawl. TED bot check, TDRI403, some PDFs/reprint pages blocked, without bypass. Broad awards, expired/results and ordinary construction/maintenance excluded from additions. Existing IDs/firstSeen and archives retained; unread records not re-dated, some evidence remains secondary/partial. Snapshot:43 unexpired submissions—25 open,1 upcoming,8 registered-only,9 uncertain;3 archived. States reflect accumulated evidence, not fresh verification of every entry."
   },
   "sources": [
     {
@@ -23,11 +23,11 @@
       "url": "https://landezine.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "media",
       "notes": {
-        "zh": "检索机会目录、Streetlife及首尔花园线索；未全量检索。",
-        "en": "Targeted searches of opportunities, Streetlife and Seoul; not exhaustive."
+        "zh": "定向搜索机会目录及现有征集，未全量检索。",
+        "en": "Targeted opportunity/call searches; not exhaustive."
       }
     },
     {
@@ -35,23 +35,23 @@
       "url": "https://worldlandscapearchitect.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "media",
       "notes": {
-        "zh": "检索2027征集；找到评委招募而非作品投稿，未当竞赛新增。",
-        "en": "Searched 2027 calls; jury recruitment excluded from project entries."
+        "zh": "定向搜索2026/2027机会，返回项目及结果内容；未据此新增开放赛事。",
+        "en": "Targeted2026/2027 searches returned projects/results; not counted as new open calls."
       }
     },
     {
       "name": "ArchDaily",
       "url": "https://www.archdaily.com/architecture-competitions",
       "kind": "media",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "group": "media",
       "notes": {
-        "zh": "读取首尔市官方英文简章PDF；媒体页面日期冲突据原文修正。",
-        "en": "Read Seoul's city-issued English PDF; corrected conflicting media time."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -59,11 +59,11 @@
       "url": "https://www.archiposition.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "media",
       "notes": {
-        "zh": "定向搜索2026年11月景观征集，未获得可新增核实记录；未全站遍历。",
-        "en": "Targeted November landscape-call search; no verified addition, not a full crawl."
+        "zh": "已读嘉善正文日程；报名11月10日已结束，交稿11月30日未变。",
+        "en": "Jiashan body schedule read; registration closed10 November, submission30 November unchanged."
       }
     },
     {
@@ -71,23 +71,23 @@
       "url": "https://www.shejijingsai.com/category/dasai/huanjing",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "media",
       "notes": {
-        "zh": "重读上海花园公告并检索国内竞赛；不刷新未读记录。",
-        "en": "Reread Shanghai garden notice and searched domestic calls; unread records retain timestamps."
+        "zh": "复核上海花园及发现无锡城市更新；漠河征集以建筑/IP运营为主，本轮未收入。",
+        "en": "Shanghai garden rechecked and Wuxi renewal discovered; Mohe building/IP-led call excluded."
       }
     },
     {
       "name": "Streetlife Competition",
       "url": "https://streetlifedesigncompetition.com/",
       "kind": "official",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "group": "organizer",
       "notes": {
-        "zh": "全文复核资格、费用、11月30日报名和12月11日交稿；无事实变化。",
-        "en": "Full-text recheck of eligibility, fees and deadlines; no fact changes."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -95,23 +95,23 @@
       "url": "https://nm-spswcp.hk/en/design-competition/",
       "kind": "official",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "organizer",
       "notes": {
-        "zh": "已读官网及修订3日程；报名截止未载小时，保持日期值。",
-        "en": "Read site and revision3 schedule; registration hour unstated, date-only retained."
+        "zh": "官网确认11月13日报名结束、12月4日首轮提交；未发现延期。",
+        "en": "Official site confirms registration13 November and stage-one submission4 December; no extension found."
       }
     },
     {
       "name": "APLD",
       "url": "https://www.apld.org/landscape-design-awards-program",
       "kind": "association",
-      "status": "planned",
-      "lastChecked": "2026-11-11T04:49:26Z",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "association",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "读官网、申报包前半和申报表，核实最低建成年限及200/225/525美元费用。",
+        "en": "Read site, first part of packet and form; verified installation age and USD200/225/525 tiers."
       }
     },
     {
@@ -122,8 +122,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -134,8 +134,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -143,11 +143,11 @@
       "url": "https://www.ncasla.org/professional-and-student-awards",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "association",
       "notes": {
-        "zh": "已读RFQ与机会目录，发现美国公园、地下水园区及公共空间/景观研究资助；仅相关项目。",
-        "en": "Read RFQ/opportunity listing; discovered relevant park, groundwater-campus and public-space/landscape research calls."
+        "zh": "读取相关RFQ与资助正文，重核得州、Geauga、LAF和Paul Gunther线索；不纳入课程/会议。",
+        "en": "Read relevant RFQ/grant bodies, rechecking Texas, Geauga, LAF and Paul Gunther; courses/conferences excluded."
       }
     },
     {
@@ -158,8 +158,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "association",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -167,11 +167,11 @@
       "url": "https://www.chsla.org.cn/",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "association",
       "notes": {
-        "zh": "定向搜索本协会竞赛公告，未找到有充分证据的新开放项目；未遍历全站。",
-        "en": "Targeted association-call search; no sufficiently evidenced new open entry; not exhaustive."
+        "zh": "定向检索协会竞赛，未获得有充分证据的新开放条目。",
+        "en": "Targeted association-call search; no sufficiently evidenced new open record."
       }
     },
     {
@@ -182,8 +182,8 @@
       "lastChecked": null,
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -191,11 +191,11 @@
       "url": "https://www.gooood.cn/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "group": "media",
       "notes": {
-        "zh": "全文读取Resonance Awards新公告；属跨领域商业奖，本轮未用来补足景观条目数量。",
-        "en": "Read new Resonance Awards call; broad commercial award excluded from landscape-count additions."
+        "zh": "定向检索景观竞赛；跨领域商业奖未用于新增数量。",
+        "en": "Targeted landscape-call search; broad commercial award not used for additions."
       }
     },
     {
@@ -206,8 +206,8 @@
       "lastChecked": null,
       "group": "media",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -216,10 +216,10 @@
       "kind": "media",
       "group": "media",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向检索景观/花园征集，未获取可新增有效机会；未全量抓取。",
-        "en": "Targeted landscape/garden call search; no usable new opportunity; not a full crawl."
+        "zh": "定向检索花园/景观竞赛，无可新增核实机会；非全站抓取。",
+        "en": "Targeted garden/landscape search; no verified addition, not a full crawl."
       }
     },
     {
@@ -230,8 +230,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -239,11 +239,11 @@
       "url": "https://www.iflaworld.com/",
       "kind": "association",
       "group": "association",
-      "status": "planned",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "已读Jellicoe2027官方提名公告，仍为1月15日；明确人物提名。",
+        "en": "Read Jellicoe2027 nomination notice;15 January unchanged, clearly a personal nomination."
       }
     },
     {
@@ -252,10 +252,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "读取景观建筑奖官网，发现开报日内文冲突并置空；截止仍为1月25日。",
-        "en": "Award site read; contradictory opening dates set null; closing remains25 January."
+        "zh": "检索景观建筑奖及读德国城市建设奖公告；后者9月30日已截止，不新增充数。",
+        "en": "Searched landscape award and read urban-development award call; latter closed30 September and excluded."
       }
     },
     {
@@ -266,8 +266,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -276,10 +276,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "搜索奖项公告，11月13日为颁奖，未新增为开放竞赛。",
-        "en": "Award searches identify13 November as ceremony; no open-entry addition."
+        "zh": "定向检索奖项/征稿，未取得新的有效相关机会。",
+        "en": "Targeted award/call search; no usable new relevant opportunity."
       }
     },
     {
@@ -288,10 +288,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "搜索2026/2027奖项；返回2026规则及颁奖信息，未作为新征稿。",
-        "en": "Searched 2026/2027 awards; rules/results not treated as new calls."
+        "zh": "定向检索2027 entries，未获得可新增核实公告。",
+        "en": "Targeted2027 entry search; no verified new call."
       }
     },
     {
@@ -300,10 +300,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "搜索奖项页，2026年11月5日为颁奖，未误当投稿截止。",
-        "en": "Award-page search identified5 November ceremony; not a submission deadline."
+        "zh": "定向检索2027 entries，未将2026结果/典礼当新征稿。",
+        "en": "Targeted2027 entry search;2026 results/ceremonies not treated as calls."
       }
     },
     {
@@ -314,8 +314,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -326,8 +326,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -336,10 +336,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:31:05Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向搜索景观设计及11–12月投标节点；无可新增原文核实结果，非全量检索。",
-        "en": "Targeted landscape design/November–December deadlines search; no verified primary-source addition, not exhaustive."
+        "zh": "定向检索11–12月公园景观设计采购；未声称全量接入或官方附件已读。",
+        "en": "Targeted November–December park/landscape design procurement search; no full integration/attachment claim."
       }
     },
     {
@@ -348,10 +348,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:31:05Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向搜索公园设计采购，结果需区分施工与设计；未全量检索。",
-        "en": "Targeted park-design procurement search; construction/design distinguished, not exhaustive."
+        "zh": "定向检索景观设计采购；新上海项目仅核到转载摘要，未升级官方。",
+        "en": "Targeted landscape procurement search; new Shanghai call has reprint excerpts only, not official verification."
       }
     },
     {
@@ -359,11 +359,11 @@
       "url": "https://ggzyfw.beijing.gov.cn/",
       "kind": "official",
       "group": "government",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:31:05Z",
       "notes": {
-        "zh": "全文复核奥塔公告并新增奥园七院独立设计采购；文件获取均已结束，明确标注。",
-        "en": "Full-text Olympic Tower recheck and distinct Seven Courtyards design procurement added; acquisition already closed for both."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -374,8 +374,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -386,8 +386,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -398,8 +398,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -408,10 +408,10 @@
       "kind": "official",
       "group": "government",
       "status": "blocked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "实际重试733645-2026官方PDF，返回405；仅搜索摘要复核，不升级原记录。",
-        "en": "Retried official PDF733645-2026: HTTP405. Search-excerpt recheck only; existing verification not upgraded."
+        "zh": "重试733645-2026，返回JavaScript机器人核验页，未绕过；爱尔兰两条仅重核镜像。",
+        "en": "Retried733645-2026: JavaScript bot-verification page, not bypassed. Two Irish records rechecked through mirror only."
       }
     },
     {
@@ -419,11 +419,11 @@
       "url": "https://www.etenders.gov.ie/",
       "kind": "official",
       "group": "government",
-      "status": "planned",
-      "lastChecked": null,
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "定向搜索景观设计采购，未成功读取新的官方项目文件。",
+        "en": "Targeted landscape procurement search; no new official project documents read."
       }
     },
     {
@@ -432,10 +432,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向检索景观设计采购；自然英格兰附件链接已定位但未读，不声称核实附件。",
-        "en": "Targeted landscape procurement search; Natural England attachment links located but not read."
+        "zh": "定向检索设计采购，未把合同履行日作为投标截止。",
+        "en": "Targeted design procurement search; contract dates not treated as bid deadlines."
       }
     },
     {
@@ -444,10 +444,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "全文读自然英格兰及两条街景公告；后两条已授标，排除。自然英格兰正文11月27日优先于摘要28日。",
-        "en": "Read Natural England and two streetscape notices; latter already awarded and excluded. Body's27 November overrides summary28 November."
+        "zh": "全文复核自然英格兰正文27日17:00，保留与摘要28日的冲突说明。",
+        "en": "Full-text Natural England body reconfirms27 November17:00; conflict with summary28 November retained."
       }
     },
     {
@@ -456,10 +456,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向搜索paysagiste及景观设计，结果多为养护或已结束资格阶段；未新增且未声称附件核实。",
-        "en": "Targeted paysagiste/design search; mainly maintenance or closed qualification stages; no verified addition."
+        "zh": "法英文定向检索景观设计采购，无可新增充分证据项目。",
+        "en": "French/English targeted landscape-design search; no sufficiently evidenced addition."
       }
     },
     {
@@ -468,10 +468,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向搜索Landschaftsplanung及12月设计采购，未取得可新增公告；非全库检索。",
-        "en": "Targeted landscape planning/December procurement search; no usable new notice, not exhaustive."
+        "zh": "德文定向检索景观设计采购，无可新增核实条目。",
+        "en": "German targeted landscape-design procurement search; no verified addition."
       }
     },
     {
@@ -480,10 +480,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "定向搜索景观设计，结果多为施工/养护；未纳入充数。",
-        "en": "Targeted landscape-design search; construction/maintenance results excluded."
+        "zh": "定向检索，施工/养护及无法核对日期的线索未新增。",
+        "en": "Targeted search; construction/maintenance and unverified-date leads excluded."
       }
     },
     {
@@ -492,10 +492,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "搜索联邦设计采购，未确认景观为主要范围的新开放公告。",
-        "en": "Searched federal design procurement; no verified new call primarily for landscape."
+        "zh": "定向搜索联邦设计采购，返回失效或泛建筑服务线索，未新增。",
+        "en": "Targeted federal design search returned inactive/general architecture leads; no addition."
       }
     },
     {
@@ -504,10 +504,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "搜索并读取NPB000ETT26000115；属养护清洁合同，排除。附件需登录，未读取。",
-        "en": "Searched and readNPB000ETT26000115; maintenance/cleansing contract excluded. Login-gated attachments unread."
+        "zh": "定向搜索景观/公园设计；学校综合施工线索未作为纯景观设计采购收入。",
+        "en": "Targeted landscape/park design search; school mixed construction lead not added as landscape design."
       }
     },
     {
@@ -515,11 +515,11 @@
       "url": "https://www.archiolcompetitions.com/",
       "kind": "official",
       "group": "organizer",
-      "status": "planned",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "全文复核Urban River，报名1月4日、提交1月14日23:59 UTC及当前53美元未变。",
+        "en": "Urban River full-text recheck:4 January registration/14 January submission23:59 UTC, current USD53 unchanged."
       }
     },
     {
@@ -527,11 +527,11 @@
       "url": "https://www.bordbiabloom.com/",
       "kind": "official",
       "group": "organizer",
-      "status": "planned",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "已读2027官方设计师申请页，升级Bloom记录；未读Dropbox规则。",
+        "en": "Read official2027 designer application page, upgraded Bloom record; Dropbox rules unread."
       }
     },
     {
@@ -542,8 +542,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有核查时间与数据。",
-        "en": "Not individually checked this run; previous timestamps and facts retained."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -552,10 +552,10 @@
       "kind": "official",
       "group": "organizer",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "官网全文核对资格、实施资金、投稿窗口和KST时刻。",
-        "en": "Full-text check of eligibility, funding, entry window and KST cutoff."
+        "zh": "全文复核官网11月22日24:00 KST和资格/实施资金，无变化。",
+        "en": "Full-text recheck of22 November24:00 KST, eligibility and funding; unchanged."
       }
     },
     {
@@ -563,11 +563,11 @@
       "url": "https://geaugaparkdistrict.org/about-gpd/planning/",
       "kind": "official",
       "group": "government",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "已读业主公告及六页RFQ；资格名录不保证委托。",
-        "en": "Owner notice and six-page RFQ read; roster does not guarantee work."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -575,11 +575,11 @@
       "url": "https://centraltexasgcd.org/",
       "kind": "official",
       "group": "government",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "已读RFQ发布页；PDF正文不可读，截止来自ASLA，核验partial。",
-        "en": "RFQ notice read; PDF text unavailable. Deadline from ASLA; partial verification."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -587,11 +587,11 @@
       "url": "https://www.lafoundation.org/",
       "kind": "association",
       "group": "association",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "已读Deb Mitchell研究资助官网；12月1日为初步提案截止。",
-        "en": "Grant page read;1 December is pre-proposal deadline."
+        "zh": "本轮未单独核查；保留既有核查时间及事实。",
+        "en": "Not individually checked this run; prior check time and facts retained."
       }
     },
     {
@@ -600,10 +600,10 @@
       "kind": "official",
       "group": "organizer",
       "status": "blocked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "gp27页面403；仅采用ASLA线索，标secondary及报名待核实。",
-        "en": "gp27 returned403; ASLA lead retained as secondary with unknown entry status."
+        "zh": "本轮再次打开gp27仍不可读；仅据ASLA正文修正纽约市项目要求。",
+        "en": "gp27 reopened but inaccessible; NYC project requirement corrected from ASLA body only."
       }
     },
     {
@@ -612,10 +612,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "森林设计仅核对官方搜索摘要；目录正文返回旧批次。登录文件未读。",
-        "en": "Forest design checked in official search excerpts; directory body returned older results. Gated documents unread."
+        "zh": "搜索官方森林设计摘要仍为11月30日；未读项目原文件，不刷新条目核查时间。",
+        "en": "Official forest-design search excerpt still gives30 November; project documents unread, record timestamp not refreshed."
       }
     },
     {
@@ -626,8 +626,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "公告470211不可访问；市府签发英文简章在媒体CDN已读。",
-        "en": "Notice470211 inaccessible; city-issued English brief read on media CDN."
+        "zh": "本轮未单独重试；保留上轮受阻结论与时间。",
+        "en": "Not retried this run; prior blocked conclusion and timestamp retained."
       }
     },
     {
@@ -638,8 +638,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "西卫公园公告超时；搜索新旧批次日期冲突，未新增为确定开放机会。",
-        "en": "Xiwei park notice timed out; conflicting batch dates, no confirmed-open addition."
+        "zh": "本轮未单独重试；保留上轮受阻结论与时间。",
+        "en": "Not retried this run; prior blocked conclusion and timestamp retained."
       }
     },
     {
@@ -648,10 +648,82 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "仅检索目录摘要，未取得可新增景观设计机会。",
-        "en": "Directory search excerpts only; no usable landscape-design addition."
+        "zh": "检索官方招标目录及近期新闻；为施工/监测等内容，未新增相关设计。",
+        "en": "Searched official tender directory/news; construction/monitoring results, no relevant design addition."
+      }
+    },
+    {
+      "name": "台湾景观学会",
+      "url": "https://www.landscape.org.tw/",
+      "kind": "association",
+      "group": "association",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "已读友善设计竞赛线索，属广泛环境设计，未为凑数新增；台湾公共场域另回政府正文。",
+        "en": "Friendly-design lead read but broad remit excluded; public-space call verified through government body."
+      }
+    },
+    {
+      "name": "台湾经济部产业园区",
+      "url": "https://www.bip.gov.tw/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "已读116年度公共场域共创官方转发正文；仅行政机关申请，附件未读。",
+        "en": "Official2027 public-space bulletin read; administrative-authority applicants only, attachment unread."
+      }
+    },
+    {
+      "name": "台湾设计研究院",
+      "url": "https://www.tdri.org.tw/",
+      "kind": "official",
+      "group": "organizer",
+      "status": "blocked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "news/777返回403；改据政府公开转发正文核对，不绕过限制。",
+        "en": "news/777 returned403; government public bulletin used instead, no bypass."
+      }
+    },
+    {
+      "name": "赛观竞赛",
+      "url": "https://www.seiguan.com/",
+      "kind": "media",
+      "group": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "完整读取无锡竞赛转载；含年龄/人数/IP条款，未读任务书与公众号原文。",
+        "en": "Read Wuxi reprint including age/team/IP terms; brief and original organizer post unread."
+      }
+    },
+    {
+      "name": "立方招采通",
+      "url": "https://lfzct.com/",
+      "kind": "media",
+      "group": "media",
+      "status": "blocked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "上海新采购仅有搜索正文摘要；尝试打开项目页受限。旧宁波条目未复核。",
+        "en": "New Shanghai procurement search excerpts only; project-page open inaccessible. Existing Ningbo record not reviewed."
+      }
+    },
+    {
+      "name": "采招网",
+      "url": "https://www.bidcenter.com.cn/",
+      "kind": "media",
+      "group": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "notes": {
+        "zh": "定向检索上海生态公园规划，交叉核对转载摘要；不等于政府原公告已读。",
+        "en": "Targeted Shanghai ecological-park search cross-checked reprint excerpts; no primary-notice claim."
       }
     }
   ],
@@ -715,7 +787,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "competition",
       "reviewMethod": "full-text"
     },
@@ -770,7 +842,7 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "competition"
     },
     {
@@ -1027,7 +1099,7 @@
       ],
       "registrationDeadline": "2027-01-08T17:00:00-05:00",
       "submissionDeadline": "2027-01-08T17:00:00-05:00",
-      "registrationOpens": null,
+      "registrationOpens": "2026-11-06",
       "timezone": "America/New_York",
       "fee": "paid",
       "feeText": {
@@ -1051,9 +1123,10 @@
       ],
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
-      "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z",
-      "opportunityType": "award"
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "opportunityType": "award",
+      "reviewMethod": "full-text"
     },
     {
       "id": "apld-awards-2027",
@@ -1073,41 +1146,54 @@
         "en": "Awards for residential landscapes, small gardens, planting, show gardens, details and outdoor lighting."
       },
       "eligibility": {
-        "zh": "参赛者与项目条件详见官方申报包，当前尚未核实全部细则。",
-        "en": "Full entrant and project eligibility is in the official entry packet and has not yet been fully reviewed."
+        "zh": "接受非会员，须申报本人或团队设计责任；通常项目建成至少2年，展示花园、细部和户外照明例外。",
+        "en": "Nonmembers accepted; identify individual/team design responsibility. Generally installed at least2 years, except show gardens, details and outdoor lighting."
       },
       "eligibilityTags": [
-        "unknown"
+        "qualified"
       ],
       "registrationDeadline": "2027-01-15",
       "submissionDeadline": "2027-01-15",
       "registrationOpens": null,
       "timezone": "America/New_York",
-      "fee": "unknown",
+      "fee": "paid",
       "feeText": {
-        "zh": "申报费用待核实",
-        "en": "Entry fee to verify"
+        "zh": "认证设计师/APLD Fellow 200美元；非认证会员225美元；非会员525美元。",
+        "en": "Certified Designer/APLD Fellow USD200; non-certified member USD225; nonmember USD525."
       },
       "prize": {
         "zh": "金、银、铜奖",
         "en": "Gold, Silver and Bronze awards"
       },
       "notes": {
-        "zh": "官网已确认征集开放与截止日期；费用、会员及项目条件需查申报包。",
-        "en": "The organizer confirms that entries are open and gives the deadline. Fees, membership and project conditions require the entry packet."
+        "zh": "本轮已读2027申报包前半及官方申报表，核实建成年限和分档费用。仍以2027年1月15日截止，未见明确小时；匿名图纸、植物表及照片授权等要求保留。",
+        "en": "Read first part of2027 packet and official entry form, verifying installation age and fee tiers. Deadline remains15 January2027; no explicit hour found. Anonymous plans, planting lists and photo releases required."
       },
       "sources": [
         {
           "name": "APLD 官方 / Official",
           "url": "https://www.apld.org/landscape-design-awards-program",
           "kind": "official"
+        },
+        {
+          "name": "官方申报表及费用 / Entry form and fees",
+          "url": "https://www.apld.org/landscape-design-awards-entry",
+          "kind": "official",
+          "group": "organizer"
+        },
+        {
+          "name": "2027申报包（部分已读）/ Packet (part read)",
+          "url": "https://www.apld.org/wp-content/uploads/2026/11/APLD-2027-Awards-Packet-FF.pdf",
+          "kind": "official",
+          "group": "organizer"
         }
       ],
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
-      "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z",
-      "opportunityType": "award"
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "opportunityType": "award",
+      "reviewMethod": "full-text"
     },
     {
       "id": "jiashan-2026",
@@ -1160,7 +1246,7 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-11T04:49:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "competition"
     },
     {
@@ -1255,8 +1341,8 @@
         "en": "Show garden opportunity; emerging-talent support includes funding and mentoring"
       },
       "notes": {
-        "zh": "日期来自爱尔兰景观协会；官网确认2027届，具体申请附件仍需复核。",
-        "en": "Deadline is from ILI. The organizer confirms the 2027 edition; application attachments still need review."
+        "zh": "已读2027官方设计师申请页：2026年11月26日13:00截止；常规申请与Cultivating Talent新人扶持为同届不同途径，合并一条。完整规则附件未读，费用及实施责任以规则确认。",
+        "en": "Read official2027 designer application page:26 November2026 at13:00. General entry and Cultivating Talent are routes within one festival, kept as one record. Full rules unread; confirm fees and delivery obligations."
       },
       "sources": [
         {
@@ -1268,12 +1354,18 @@
           "name": "Bord Bia Bloom",
           "url": "https://www.bordbiabloom.com/",
           "kind": "official"
+        },
+        {
+          "name": "2027官方设计师申请页 / Official application page",
+          "url": "https://www.bordbiabloom.com/participate/garden-designers/",
+          "kind": "official",
+          "group": "organizer"
         }
       ],
-      "verification": "partial",
+      "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
-      "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "competition",
       "reviewMethod": "full-text"
     },
@@ -1493,7 +1585,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "nomination",
       "reviewMethod": "full-text"
     },
@@ -1548,7 +1640,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "competition",
       "reviewMethod": "full-text"
     },
@@ -2219,7 +2311,7 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "tender",
       "reviewMethod": "full-text",
       "entryStatus": "unknown"
@@ -2280,7 +2372,7 @@
       "verification": "secondary",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-11T22:34:06Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "opportunityType": "tender",
       "reviewMethod": "full-text",
       "entryStatus": "unknown"
@@ -2697,7 +2789,7 @@
       "reviewMethod": "full-text",
       "firstSeen": "2026-11-13T00:28:00Z",
       "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "id": "eulsukdo-ecoart-2026",
       "category": "project",
       "region": "international",
@@ -2759,7 +2851,7 @@
       "reviewMethod": "full-text",
       "firstSeen": "2026-11-13T00:28:00Z",
       "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "id": "geauga-park-design-soq-2027",
       "category": "project",
       "region": "international",
@@ -2821,7 +2913,7 @@
       "reviewMethod": "full-text",
       "firstSeen": "2026-11-13T00:28:00Z",
       "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "id": "laf-deb-mitchell-grant-2027",
       "category": "concept",
       "region": "international",
@@ -2876,8 +2968,8 @@
       "verification": "secondary",
       "reviewMethod": "full-text",
       "firstSeen": "2026-11-13T00:28:00Z",
-      "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "id": "paul-gunther-public-space-2027",
       "category": "concept",
       "region": "international",
@@ -2888,24 +2980,24 @@
       },
       "originalTitle": "2027 Paul Gunther Prize for Inclusive Public Space",
       "location": {
-        "zh": "美国 · 重点关注纽约市",
-        "en": "USA · New York City emphasis"
+        "zh": "美国 · 纽约市项目",
+        "en": "New York City projects, USA"
       },
       "summary": {
         "zh": "支持免费公共空间的包容性设计或研究，包括公园、广场及纪念空间。",
         "en": "Inclusive design or research for freely accessible public spaces, including parks, plazas and monuments."
       },
       "eligibility": {
-        "zh": "个人或团队；详细资格及地域限制待主办方核实。",
-        "en": "Individuals or teams; detailed eligibility and geographic limits require organizer confirmation."
+        "zh": "个人或团队；ASLA正文要求方案针对纽约市包容性公共空间，其他申请条件待主办方核实。",
+        "en": "Individuals or teams; ASLA specifies inclusive public-space proposals in New York City. Other conditions need organizer confirmation."
       },
       "eligibilityTags": [
         "unknown"
       ],
       "entryStatus": "unknown",
       "notes": {
-        "zh": "已读ASLA目录；主办方页面403，报名步骤、费用、时刻及时区未核实。非既有作品奖或人物提名。",
-        "en": "ASLA listing read; organizer page returned HTTP403. Entry steps, fees, hour/timezone unverified. Not a built-work award or personal nomination."
+        "zh": "本轮重读ASLA正文，纽约市为项目所在地要求，不仅是偏好。主办方页面仍无法访问；报名流程、费用、时刻及时区未知。",
+        "en": "ASLA body reread: New York City is the project-location requirement, not simply a preference. Organizer still inaccessible; entry steps, fees, hour and timezone unknown."
       },
       "sources": [
         {
@@ -2940,7 +3032,7 @@
       "reviewMethod": "full-text",
       "firstSeen": "2026-11-13T00:28:00Z",
       "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
       "id": "central-texas-groundwater-design-2026",
       "category": "project",
       "region": "international",
@@ -3103,6 +3195,193 @@
       "firstSeen": "2026-11-13T00:31:05Z",
       "updatedAt": "2026-11-13T00:31:05Z",
       "lastChecked": "2026-11-13T00:31:05Z"
+    },
+    {
+      "registrationOpens": null,
+      "registrationDeadline": "2027-03-08T00:00:00+08:00",
+      "submissionDeadline": "2027-03-08T00:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，须核实。",
+        "en": "Fees not stated; confirm."
+      },
+      "prize": {
+        "zh": "每现场一等奖为方案实施委托权、另签合同且无竞赛现金奖；二、三等奖分别15000、10000元含税。",
+        "en": "Per site: first prize is a separately contracted implementation commission, with no cash competition prize; second/third CNY15,000/10,000 including tax."
+      },
+      "firstSeen": "2026-11-15T00:15:26Z",
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "id": "wuxi-youth-city-renewal-2026",
+      "category": "project",
+      "region": "domestic",
+      "opportunityType": "competition",
+      "title": {
+        "zh": "无锡第二届“青城之约”城市更新设计大赛",
+        "en": "Wuxi Youth for City Urban Renewal Competition"
+      },
+      "originalTitle": "城以青春——无锡市第二届“青城之约”城市更新设计大赛",
+      "location": {
+        "zh": "中国 · 无锡",
+        "en": "Wuxi, China"
+      },
+      "summary": {
+        "zh": "含林下空间、老年社区公共空间、滨水慢行及工业遗存更新的真实场地征集；全赛事合并一条。",
+        "en": "Real-site renewal including woodland spaces, senior-community public space, waterfront walking links and industrial heritage; one record for all sites."
+      },
+      "eligibility": {
+        "zh": "面向海内外个人、机构及高校团队；设计师须1982年1月1日及以后出生，团队最多4人、指导教师最多1人且不限年龄。",
+        "en": "Individuals, firms and academic teams worldwide; designers born on/after1 January1982; up to4 members and1 adviser, with no adviser age limit."
+      },
+      "eligibilityTags": [
+        "young"
+      ],
+      "verification": "secondary",
+      "reviewMethod": "full-text",
+      "notes": {
+        "zh": "转载公告正文截止为2027年3月7日24:00北京时间，按次日存储。12月14日9:00是交稿通道开启，不是报名开始；报名表另设。任务书及主办方公众号原文未读，费用未知，共有知识产权条款须审阅。",
+        "en": "Reprinted body gives7 March2027,24:00 Beijing, stored next day.14 December09:00 starts submission upload, not registration. Separate registration form. Brief and original organizer post unread; fees unknown; shared-IP terms require review."
+      },
+      "sources": [
+        {
+          "name": "完整转载公告 / Reprinted call",
+          "url": "https://www.seiguan.com/comp/7855.html",
+          "kind": "media",
+          "group": "media"
+        },
+        {
+          "name": "地方新闻交叉核对 / Local news",
+          "url": "https://jsnews.jschina.com.cn/jsyw/202611/t20261113_s6af6ef94e4b05bfe6eb68a85.shtml",
+          "kind": "media",
+          "group": "media"
+        }
+      ]
+    },
+    {
+      "registrationOpens": "2026-11-14T09:00:00+08:00",
+      "registrationDeadline": "2026-11-20T17:00:00+08:00",
+      "submissionDeadline": "2026-11-25T13:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "fee": "paid",
+      "feeText": {
+        "zh": "转载写采购文件500元/本、不退；待原公告确认。",
+        "en": "Reprint lists CNY500 per document set, nonrefundable; primary confirmation pending."
+      },
+      "prize": {
+        "zh": "规划采购预算及限价84万元人民币，非奖金。",
+        "en": "Planning procurement budget/ceiling CNY840,000; not a prize."
+      },
+      "firstSeen": "2026-11-15T00:15:26Z",
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "id": "shanghai-ecological-park-system-2026",
+      "category": "project",
+      "region": "domestic",
+      "opportunityType": "tender",
+      "title": {
+        "zh": "上海自然生态公园体系建设方案采购",
+        "en": "Shanghai Natural Ecological Park System Planning"
+      },
+      "originalTitle": "上海市自然生态公园体系建设方案（2026—2035年）",
+      "location": {
+        "zh": "中国 · 上海",
+        "en": "Shanghai, China"
+      },
+      "summary": {
+        "zh": "评估既有林地湿地基础，研究生态公园及步道布局、簇群指引和保障机制。",
+        "en": "Assess woodland/wetland baselines and plan ecological parks, trails, park clusters and implementation mechanisms."
+      },
+      "eligibility": {
+        "zh": "须提供合法主体证照、授权及身份材料；完整专业资质、业绩和地域限制尚未核实。",
+        "en": "Legal-entity documents, authorization and identity materials required; full qualifications, experience and geographic conditions unverified."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "entryStatus": "unknown",
+      "verification": "secondary",
+      "reviewMethod": "search-excerpt",
+      "notes": {
+        "zh": "11月14日发布线索。仅核对两份转载搜索正文摘要；原公共采购公告及附件未读，不能确认当前可获取文件。文件获取仅工作时段；金额、资格及日期须向采购方复核。",
+        "en": "Lead published14 November. Two reprint search excerpts checked; primary notice/attachments unread, so current document access remains unknown. Acquisition during working hours; verify budget, eligibility and dates with buyer."
+      },
+      "sources": [
+        {
+          "name": "采购转载摘要 / Reprint excerpt",
+          "url": "https://lfzct.com/info/pfjqFDm0LZZWINJyBIXdkg%3D%3D?city=%E4%B8%8A%E6%B5%B7%E5%B8%82",
+          "kind": "media",
+          "group": "media"
+        },
+        {
+          "name": "另一转载摘要 / Cross-check excerpt",
+          "url": "https://3101.bidcenter.com.cn/bidinfo-1-a0f73512c37219a9708635c79be3ab72dd83390a9744dab6.html",
+          "kind": "media",
+          "group": "media"
+        }
+      ]
+    },
+    {
+      "registrationOpens": null,
+      "registrationDeadline": "2026-12-18T17:00:00+08:00",
+      "submissionDeadline": "2026-12-18T17:00:00+08:00",
+      "timezone": "Asia/Taipei",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，须核实。",
+        "en": "Fees not stated; confirm."
+      },
+      "prize": {
+        "zh": "每案整合规划费上限新台币450万元含税，依评审核定；非奖金或保证设计委托。",
+        "en": "Integrated planning funding up to TWD4.5m including tax per selected case, subject to review; not prize money or a guaranteed design commission."
+      },
+      "firstSeen": "2026-11-15T00:15:26Z",
+      "updatedAt": "2026-11-15T00:15:26Z",
+      "lastChecked": "2026-11-15T00:15:26Z",
+      "id": "taiwan-public-space-cocreation-2027",
+      "category": "project",
+      "region": "domestic",
+      "opportunityType": "grant",
+      "title": {
+        "zh": "116年度城市美学公共场域设计共创征选",
+        "en": "2027 Taiwan Public-Space Design Co-creation Call"
+      },
+      "originalTitle": "116年「城市美學—公共場域設計共創」公共場域徵選",
+      "location": {
+        "zh": "中国 · 台湾",
+        "en": "Taiwan, China"
+      },
+      "summary": {
+        "zh": "征选对公众开放的休憩、交通及产业公共场域，资助整合规划并媒合设计团队。",
+        "en": "Selects public recreation, transport and industrial-area spaces for funded integrated planning and design-team matching."
+      },
+      "eligibility": {
+        "zh": "仅中央及地方行政机关申请；机关须已编列不超过新台币5000万元工程款。设计师个人及事务所不能直接申请本轮场域征选。",
+        "en": "Central/local administrative authorities only, with approved construction budgets up to TWD50m. Individual designers/firms cannot directly apply to this site-selection round."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "verification": "official",
+      "reviewMethod": "full-text",
+      "notes": {
+        "zh": "已读经济部园区官方转发正文：这是公共业主申请的场域征选，后续另媒合设计团队。TDRI页403、附件无法读取，未声称核实完整附件；单机关3年最多4案。",
+        "en": "Read official ministry-park bulletin: public-owner site selection, followed by separate design-team matching. TDRI page403 and attachment unread; no full-brief claim. Up to4 cases per authority over3 years."
+      },
+      "sources": [
+        {
+          "name": "经济部官方转发 / Ministry bulletin",
+          "url": "https://www.bip.gov.tw/iphw/dayuan/bulletin.do?method=goContent&sn=109005",
+          "kind": "official",
+          "group": "government"
+        },
+        {
+          "name": "执行方（403）/ Implementer (403)",
+          "url": "https://www.tdri.org.tw/zh-TW/news/777",
+          "kind": "official",
+          "group": "organizer"
+        }
+      ]
     }
   ]
 }
