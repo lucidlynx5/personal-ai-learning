@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:27:46Z",
+  "updatedAt": "2026-11-27T00:14:19Z",
   "updateIntervalDays": 2,
   "automation": {
     "status": "enabled",
     "taskId": "Automation_181c60c7f7bc81918524186435f17f0a",
-    "nextRunAt": "2026-11-27T08:00:00+08:00",
+    "nextRunAt": "2026-11-29T08:00:00+08:00",
     "lastRunStatus": "partial",
-    "lastAttemptAt": "2026-11-25T00:27:46Z",
+    "lastAttemptAt": "2026-11-27T00:14:19Z",
     "researchTarget": {
       "zh": "至少30条未过当前提交截止的相关机会；不得为数量编造或保留过期条目。",
       "en": "Target at least 30 relevant non-expired opportunities; never invent or retain expired entries to meet the number."
     }
   },
   "runSummary": {
-    "zh": "2026-11-25：新增3条设计采购线索（西雅图、Cal Poly、Hénin-Beaumont），均已读转载正文，但官方项目/文件受403、空壳或人机验证限制，标secondary及报名状态待核实；法国时刻冲突仅存日期级截止。复查北京花园阳台日程无变化，仅更新lastChecked。开展中国大陆、港澳台、欧洲、北美、亚洲其他地区及澳新定向检索，覆盖政府、协会、媒体和主办方线索；不代表各平台全量或每条既有记录复核。谷德及ASLA目录正文已读，Cardiff已授标、台湾讲座、普通施工养护和混入实验室项目的聚合错误均排除。未读目录planned，失败路径blocked并说明范围。当前未截止数为累计存量，包含待开报、报名结束仍可交稿及状态待核实，不等于本轮验证全部开放。",
-    "en": "2026-11-25: Added3 design-procurement leads (Seattle, Cal Poly, Hénin-Beaumont). Mirror bodies read, but primary projects/documents blocked by403, empty shells or bot checks; all secondary with entry status unknown. French hour conflict retained as date-only cutoff. Beijing balcony schedule unchanged; only lastChecked refreshed. Targeted mainland China, Hong Kong/Macao/Taiwan, Europe, North America, other Asia and Australia/NZ across government, associations, media and organizer leads; neither exhaustive platforms nor all existing records reverified. Gooood/ASLA directory bodies read; Cardiff award notice, Taiwan lectures, ordinary works/maintenance and conflated laboratory aggregations excluded. Unread directories planned; failed paths blocked with scope notes. Unexpired totals are cumulative and include upcoming, registration-closed and uncertain entries, not all verified open this run."
+    "zh": "2026-11-27：新增4条：雄安乡村空间竞赛（政府原公告official）、东莞最美科学径（公开转载secondary）、Lancashire景观框架（政府正文已读但采购包待核，partial）、Leander景观顾问（转载secondary，原门户403）。东莞当前节点为资格预审，未混入竞赛组织服务采购，也未拆分赛道。英国正文12月7日中午优先于摘要8日；Leander时刻冲突仅存日期，后两条文件获取/报名未知。更新首尔官网恢复可读说明和IFLA有效提名链接；Streetlife、香港三宝树、Natural England及德国景观奖核查无事实变化，仅更新lastChecked。检索覆盖大陆、港澳台、欧洲、北美、其他亚洲及澳新，含政府/协会/媒体/主办方；谷德、ASLA、AILA、NZILA、GeBIZ等实际阅读范围见来源说明，不代表全量接入。Laurel Cemetery主办年份与协会冲突且PDF未读、北京新公告不可读，均未凑数。保留归档，累计未截止数含开放/待开报/报名结束/状态未知，不等于本轮逐条核实至少30条开放；未复查来源保留旧时间并标planned或此前blocked。",
+    "en": "2026-11-27: Added4: Xiong'an rural-space competition (official government call), Dongguan Science Trail (secondary mirror), Lancashire landscape framework (government body read, tender pack unverified:partial), Leander consultants (secondary, primary portal403). Dongguan current deadline is prequalification; competition-management procurement excluded, no split tracks. UK body7December noon overrides8December summary; Leander hour conflict retained date-only, both tender-entry/access statuses unknown. Updated Seoul's newly readable primary page and valid IFLA nomination link. Streetlife, HongKong SamPoShue, NaturalEngland and German prize checks unchanged:only lastChecked refreshed. Searches span mainland China, HongKong/Macao/Taiwan, Europe, NorthAmerica, otherAsia and Australia/NZ across four source groups; actual Gooood/ASLA/AILA/NZILA/GeBIZ reading scopes documented, not full integration. Laurel Cemetery organizer/association year conflict with unread PDF and inaccessible Beijing notice not padded into totals. Archives retained; cumulative unexpired count includes open/upcoming/registration-closed/unknown, not at least30 individually reverified open this run. Unchecked sources retain old timestamps as planned or previously blocked."
   },
   "sources": [
     {
@@ -23,11 +23,11 @@
       "url": "https://landezine.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "media",
       "notes": {
-        "zh": "定向检索征集目录，仍见首尔与Streetlife；非全量。",
-        "en": "Targeted calls-directory search returned Seoul/Streetlife; not exhaustive."
+        "zh": "定向检索征集目录，主要为首尔/Streetlife既有条目；未全量读取。",
+        "en": "Targeted calls-directory search, mainly existing Seoul/Streetlife; not exhaustive."
       }
     },
     {
@@ -35,11 +35,11 @@
       "url": "https://worldlandscapearchitect.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "media",
       "notes": {
-        "zh": "定向景观竞赛检索；未逐条重读既有奖项。",
-        "en": "Targeted landscape-call search; existing awards not individually reread."
+        "zh": "定向新竞赛检索；返回既有奖项与结果，不等于全部内容已核验。",
+        "en": "Targeted new-call search returned existing awards/results; not all content verified."
       }
     },
     {
@@ -50,8 +50,8 @@
       "lastChecked": "2026-11-13T00:28:00Z",
       "group": "media",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -59,11 +59,11 @@
       "url": "https://www.archiposition.com/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "media",
       "notes": {
-        "zh": "定向新征集检索，未发现可核实的新相关机会。",
-        "en": "Targeted new-call search; no verifiable new relevant opportunity found."
+        "zh": "开展中英文定向新征集检索，未取得可核实新相关正文。",
+        "en": "Targeted bilingual new-call searches; no verifiable new relevant body obtained."
       }
     },
     {
@@ -74,32 +74,32 @@
       "lastChecked": "2026-11-17T00:55:00Z",
       "group": "media",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
       "name": "Streetlife Competition",
       "url": "https://streetlifedesigncompetition.com/",
       "kind": "official",
-      "status": "planned",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "已读官方资格、费用和双截止；11月30日报名、12月11日交稿，当前100欧元，未见延期。",
+        "en": "Official eligibility/fee/separate cutoffs read:registration30November,submission11December,currentEUR100,no extension found."
       }
     },
     {
       "name": "三宝树湿地竞赛官网",
       "url": "https://nm-spswcp.hk/en/design-competition/",
       "kind": "official",
-      "status": "planned",
-      "lastChecked": "2026-11-23T00:11:03Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "已读官网日程及收件FAQ：13日报名已结束，12月4日17时香港时间交稿，未见延期。",
+        "en": "Schedule/receipt FAQ read:registration closed13November,submission4December17:00HongKong,no extension found."
       }
     },
     {
@@ -110,8 +110,8 @@
       "lastChecked": "2026-11-21T00:38:29Z",
       "group": "association",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -122,8 +122,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -134,8 +134,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -146,8 +146,8 @@
       "lastChecked": "2026-11-19T00:59:17Z",
       "group": "association",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -158,8 +158,8 @@
       "lastChecked": "2026-11-11T04:49:26Z",
       "group": "association",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -167,11 +167,11 @@
       "url": "https://www.chsla.org.cn/",
       "kind": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "association",
       "notes": {
-        "zh": "定向竞赛检索，未获得新的可核实相关公告。",
-        "en": "Targeted contest search; no new verifiable relevant notice obtained."
+        "zh": "定向竞赛检索，未得到可核实新公告；不视为官网全量检索。",
+        "en": "Targeted contest search yielded no verifiable new notice; not comprehensive primary coverage."
       }
     },
     {
@@ -182,8 +182,8 @@
       "lastChecked": null,
       "group": "organizer",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -191,11 +191,11 @@
       "url": "https://www.gooood.cn/",
       "kind": "media",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "group": "media",
       "notes": {
-        "zh": "已读新闻目录，未见比庆盛/漠河更晚的新相关征集。",
-        "en": "News directory read; no later relevant call than Qingsheng/Mohe found."
+        "zh": "已读新闻目录，相关最新仍为庆盛/漠河11月18日公告；获奖结果不作开放机会。",
+        "en": "News directory read; latest relevant calls remain Qingsheng/Mohe on18November; winners not counted as open calls."
       }
     },
     {
@@ -206,8 +206,8 @@
       "lastChecked": null,
       "group": "media",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -216,10 +216,10 @@
       "kind": "media",
       "group": "media",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向景观征集检索，摄影与无关设计排除。",
-        "en": "Targeted landscape-call search; photography/unrelated design omitted."
+        "zh": "定向景观竞赛检索，摄影等无关结果排除。",
+        "en": "Targeted landscape-call search; unrelated photography results excluded."
       }
     },
     {
@@ -228,10 +228,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "已读机会目录正文；既有基金、公共空间与规划条目仍列出，课程/演讲征集不计入。未重读所有附件。",
-        "en": "Opportunity-directory body read; existing grants/public-space/planning calls remain listed; courses/speaking calls excluded. Not all attachments reread."
+        "zh": "已读机会目录新Laurel Cemetery征集；协会列2027年1月5日，但主办页面写2026年，附件未读，未收录冲突线索。",
+        "en": "New Laurel Cemetery call read in directory; association gives5January2027, organizer page says2026 and PDF unread, so conflicting lead not added."
       }
     },
     {
@@ -240,10 +240,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "联合定向2027奖项检索；未重读旧公告。",
-        "en": "Combined targeted 2027-award search; prior notices not reread."
+        "zh": "已读有效2027Jellicoe提名新闻原文，替换旧失效链接，资格与截止未变。",
+        "en": "Valid2027Jellicoe nomination news read; replaced old broken link, eligibility/cutoff unchanged."
       }
     },
     {
@@ -252,10 +252,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向景观奖项/竞赛检索，未全量读取。",
-        "en": "Targeted landscape awards/calls search; not exhaustive."
+        "zh": "已读2027景观建筑奖新公告，确认1月25日日期；本轮未重读详细规则。",
+        "en": "2027landscape-prize announcement read, confirming25January date; detailed rules not reread this run."
       }
     },
     {
@@ -266,8 +266,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -275,11 +275,11 @@
       "url": "https://www.irishlandscapeinstitute.com/",
       "kind": "association",
       "group": "association",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "定向奖项检索，未核实新开放征集。",
-        "en": "Targeted award search; no new open call verified."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -288,10 +288,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向2027奖项检索，仍返回2026规则与颁奖。",
-        "en": "Targeted 2027-award search returned 2026 rules/ceremonies."
+        "zh": "已读奖项官网，仍为2026已截止规则；未将开报按钮误作2027开放。",
+        "en": "Awards page read; still closed2026rules, entry button not treated as2027opening."
       }
     },
     {
@@ -300,10 +300,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向2027奖项检索，2026结果不作新机会。",
-        "en": "Targeted 2027-award search; 2026 results not counted as calls."
+        "zh": "已读奖项页，为2026入围及颁奖内容，非新开放征集。",
+        "en": "Awards page read:2026shortlist/ceremony, not a new open call."
       }
     },
     {
@@ -314,8 +314,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -323,11 +323,11 @@
       "url": "https://www.landscapeinstitute.org/",
       "kind": "association",
       "group": "association",
-      "status": "planned",
-      "lastChecked": "2026-11-23T00:11:03Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "定向2027奖项检索仍返回2026已截止征集、入围及颁奖，不新增。",
+        "en": "Targeted2027award search returned closed2026calls/shortlist/ceremonies; no addition."
       }
     },
     {
@@ -336,10 +336,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向11月新景观设计采购；成交、施工、养护与文件获取已结束公告排除。",
-        "en": "Targeted November landscape-design procurement; awards, works, maintenance and closed document-access notices excluded."
+        "zh": "定向11月26日景观设计检索；普通施工、养护、结果和教学课程项目不填充。",
+        "en": "Targeted26November landscape-design search; ordinary works, maintenance, awards and teaching-course projects excluded."
       }
     },
     {
@@ -347,11 +347,11 @@
       "url": "https://www.ggzy.gov.cn/",
       "kind": "official",
       "group": "government",
-      "status": "planned",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "定向景观设计采购检索发现北京地方公告，但原页未成功读取，未按摘要新增。",
+        "en": "Targeted design-procurement search found Beijing local notice; primary page unread, not added from excerpt."
       }
     },
     {
@@ -359,11 +359,11 @@
       "url": "https://ggzyfw.beijing.gov.cn/",
       "kind": "official",
       "group": "government",
-      "status": "planned",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "status": "blocked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "11月26日5803199原公告无法读取；搜索摘要不足以核实完整条件，未新增。",
+        "en": "26November notice5803199 inaccessible; excerpt insufficient for full terms, not added."
       }
     },
     {
@@ -374,8 +374,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -386,8 +386,8 @@
       "status": "planned",
       "lastChecked": null,
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -398,8 +398,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -407,11 +407,11 @@
       "url": "https://ted.europa.eu/",
       "kind": "official",
       "group": "government",
-      "status": "blocked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向检索后打开782804-2026，遭人机验证，未读取原始公告或绕过限制。",
-        "en": "After targeted search, 782804-2026 required bot verification; primary notice unread, no bypass."
+        "zh": "定向景观设计采购检索，未取得新的官方采购包正文。",
+        "en": "Targeted landscape-design procurement search; no new primary tender-pack body obtained."
       }
     },
     {
@@ -420,10 +420,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向景观设计采购检索，未读取新采购包。",
-        "en": "Targeted landscape-design procurement search; no new tender pack read."
+        "zh": "定向景观设计检索，既有公园框架及新线索未逐个核实官方附件。",
+        "en": "Targeted landscape-design search; existing park framework/new leads not individually checked against official attachments."
       }
     },
     {
@@ -434,8 +434,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "106193-2026原页403；未绕过，既有事实保留。",
-        "en": "Notice 106193-2026 returned 403; no bypass, prior facts retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -444,10 +444,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "已读景观分类目录及NOV680366正文；Cardiff公告为UK6已授标，排除，未误作开放机会。",
-        "en": "Landscape category and NOV680366 read; Cardiff is a UK6 award notice, excluded rather than treated as an open call."
+        "zh": "已读Lancashire景观标段及提交正文、Natural England农场景观正文；采用正文截止而非摘要晚一天日期。采购包资格未读。",
+        "en": "Lancashire landscape lot/submission and Natural England farm-landscape body read; body cutoff used over next-day summary. Tender-pack eligibility unread."
       }
     },
     {
@@ -455,11 +455,11 @@
       "url": "https://www.boamp.fr/",
       "kind": "official",
       "group": "government",
-      "status": "blocked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "26-108696页面仅空壳，PDF无法读取；转载存在截止小时冲突，保留日期级截止与警示。",
-        "en": "26-108696 shell only and PDF inaccessible; mirrored cutoff hours conflict, so date-only cutoff and warning retained."
+        "zh": "定向aménagements paysagers检索仍返回既有Hénin-Beaumont转载；本轮未再打开原文，原时刻冲突保留。",
+        "en": "Targeted aménagements paysagers search returned existing Hénin-Beaumont mirror; primary not reopened, prior hour conflict retained."
       }
     },
     {
@@ -468,10 +468,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向Freiraumplanung检索，非全平台覆盖。",
-        "en": "Targeted Freiraumplanung search; not full-platform coverage."
+        "zh": "定向Freianlagenplanung检索发现地方目录线索，未逐个读取采购文件。",
+        "en": "Targeted Freianlagenplanung search found regional-directory leads; tender files not individually read."
       }
     },
     {
@@ -480,10 +480,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向景观设计采购检索，普通施工养护排除。",
-        "en": "Targeted landscape-design procurement search; ordinary works/maintenance excluded."
+        "zh": "定向景观设计采购检索；施工养护与已过截止项目排除，未获新官方设计包。",
+        "en": "Targeted landscape-design procurement; works/maintenance/expired notices excluded, no new primary design pack obtained."
       }
     },
     {
@@ -492,10 +492,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向景观设计采购检索；草案预告及无关建筑项目排除。",
-        "en": "Targeted landscape-design procurement; draft synopsis and unrelated building projects excluded."
+        "zh": "定向景观设计检索，草案预告、港口建筑及养护除雪不作景观设计机会。",
+        "en": "Targeted landscape-design search; draft synopsis, port architecture and maintenance/snow removal not counted."
       }
     },
     {
@@ -504,10 +504,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向设计采购检索；已关闭报名与非实体景观行业研究不计新增。",
-        "en": "Targeted design-procurement search; closed registration and nonphysical industry-landscape studies not added."
+        "zh": "已读NPB000ETT26000098：养护清洁且待授标，排除；未把12月1日合同日期当投标截止。",
+        "en": "NPB000ETT26000098 read:maintenance/cleaning and pending award, excluded;1December contract date not treated as bid deadline."
       }
     },
     {
@@ -518,8 +518,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -530,8 +530,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "尝试/exhibit/show-gardens/路径失败；未据此改变既有赛事事实，其他路径未核实。",
-        "en": "Attempted /exhibit/show-gardens/ path inaccessible; existing event facts unchanged, other paths not verified."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -542,8 +542,8 @@
       "status": "planned",
       "lastChecked": "2026-11-11T22:34:06Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -554,8 +554,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -566,8 +566,8 @@
       "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -578,8 +578,8 @@
       "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -590,8 +590,8 @@
       "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -602,8 +602,8 @@
       "status": "planned",
       "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -614,8 +614,8 @@
       "status": "planned",
       "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -623,11 +623,11 @@
       "url": "https://www.seoul.go.kr/",
       "kind": "official",
       "group": "government",
-      "status": "planned",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "已读市府11月20日英文原公告与Gardenist资格；12月7–9日收件及16时KST截止一致。",
+        "en": "City20November English notice and Gardenist eligibility read;7–9December entry and16:00KST cutoff agree."
       }
     },
     {
@@ -638,8 +638,8 @@
       "status": "planned",
       "lastChecked": "2026-11-13T00:28:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -648,10 +648,10 @@
       "kind": "official",
       "group": "government",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向公共项目检索，已完成项目与普通桥梁楼宇施工排除。",
-        "en": "Targeted public-project search; completed projects and ordinary bridge/building works excluded."
+        "zh": "定向公共项目检索，普通桥梁、道路及楼宇施工排除。",
+        "en": "Targeted public-project search; ordinary bridge/road/building works excluded."
       }
     },
     {
@@ -660,10 +660,10 @@
       "kind": "association",
       "group": "association",
       "status": "checked",
-      "lastChecked": "2026-11-25T00:27:46Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "定向徵件检索，讲座和结果公示不计新机会。",
-        "en": "Targeted calls search; lectures/results not counted as new opportunities."
+        "zh": "定向征件检索仅见既有友善设计及青年竞赛成果展，未计成果展为机会。",
+        "en": "Targeted calls search found existing friendly-design call/youth results exhibition; exhibitions not counted."
       }
     },
     {
@@ -674,8 +674,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -686,8 +686,8 @@
       "status": "planned",
       "lastChecked": "2026-11-15T00:15:26Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -698,8 +698,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -710,8 +710,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -722,8 +722,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -734,8 +734,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -746,8 +746,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -758,8 +758,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -767,11 +767,11 @@
       "url": "https://www.cnyisai.com/",
       "kind": "media",
       "group": "media",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "已读c156正文；北京花园阳台报名11月25日、交稿12月11日，未见延期。",
-        "en": "c156 body read; Beijing balcony registration 25 November, submission 11 December; no extension found."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -782,8 +782,8 @@
       "status": "planned",
       "lastChecked": "2026-11-17T00:55:00Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -794,8 +794,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -806,8 +806,8 @@
       "status": "planned",
       "lastChecked": "2026-11-19T00:59:17Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -818,8 +818,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "本轮打开同域西雅图313609项目403；Mercer Island项目未重读。",
-        "en": "Seattle project 313609 on the same host returned 403 this run; Mercer Island project not reread."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -827,11 +827,11 @@
       "url": "https://www.constructionbidsource.com/",
       "kind": "media",
       "group": "media",
-      "status": "planned",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "已读Leander CIPS27-008公开正文；登录区域未访问，时刻与另一转载标题冲突。",
+        "en": "Leander CIPS27-008 public body read; login area not accessed, hour conflicts with another mirror header."
       }
     },
     {
@@ -839,11 +839,11 @@
       "url": "https://govtribe.com/",
       "kind": "media",
       "group": "media",
-      "status": "planned",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "已读Leander公开正文与原门户链接；页头20时CST与正文14时冲突，不擅定小时。",
+        "en": "Leander public body/original portal link read;20:00CST header conflicts with14:00body, no hour selected."
       }
     },
     {
@@ -854,8 +854,8 @@
       "status": "planned",
       "lastChecked": "2026-11-19T00:59:17Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -866,8 +866,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -878,8 +878,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -890,8 +890,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -902,8 +902,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -914,8 +914,8 @@
       "status": "planned",
       "lastChecked": "2026-11-21T00:38:29Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -926,8 +926,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -938,8 +938,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -950,8 +950,8 @@
       "status": "planned",
       "lastChecked": "2026-11-23T00:11:03Z",
       "notes": {
-        "zh": "本轮未单独检查；保留既有事实与核查时间。",
-        "en": "Not individually checked this run; prior facts and check time retained."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -959,11 +959,11 @@
       "url": "https://busybids.org/",
       "kind": "media",
       "group": "media",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "已读西雅图313609转载；不是官方原文，未把聚合器自报核验时间作本站核验时间。",
-        "en": "Seattle313609 mirror read; not primary text, aggregator verification timestamps not reused."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -971,11 +971,11 @@
       "url": "https://www.lightrfp.com/",
       "kind": "media",
       "group": "media",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "已读Cal Poly项目原始字段转载，忽略错误AI地点及商业投标保证营销。",
-        "en": "Cal Poly raw-field mirror read; erroneous AI location and generic bond marketing ignored."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -983,11 +983,11 @@
       "url": "https://afd.calpoly.edu/vendor-info/",
       "kind": "official",
       "group": "government",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "已读大学供应商/开放采购页；嵌入项目正文未取得，不声称招标文件已读。",
-        "en": "University vendor/open-bid pages read; embedded project body unavailable, tender documents not claimed as read."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -998,8 +998,8 @@
       "status": "blocked",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "0000040790官方项目403；未绕过。",
-        "en": "Official project0000040790 returned403; no bypass."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
       }
     },
     {
@@ -1007,11 +1007,95 @@
       "url": "https://www.alertoffres.fr/",
       "kind": "media",
       "group": "media",
-      "status": "checked",
+      "status": "planned",
       "lastChecked": "2026-11-25T00:27:46Z",
       "notes": {
-        "zh": "已读26PI071转载，保留截止小时冲突，未冒充官方确认。",
-        "en": "26PI071 mirror read; cutoff-hour conflict retained, not presented as primary confirmation."
+        "zh": "本轮未单独复查；保留此前事实、受阻状态（如有）及核查时间。",
+        "en": "Not individually rechecked this run; prior facts, blocked status if applicable, and check time retained."
+      }
+    },
+    {
+      "name": "中国雄安官网",
+      "url": "https://www.xiongan.gov.cn/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "已读11月25日乡村空间竞赛原公告；DOCX附件工具不支持，未声称已读。",
+        "en": "25November rural-space call read; DOCX unsupported by web tool, not claimed as read."
+      }
+    },
+    {
+      "name": "千里马招标网",
+      "url": "https://www.qianlima.com/",
+      "kind": "media",
+      "group": "media",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "已读最美科学径公开征集正文，局部遮蔽；未访问登录内容。",
+        "en": "Science Trail public body read, partly masked; login content not accessed."
+      }
+    },
+    {
+      "name": "征集码头网",
+      "url": "https://www.zjmtcn.com/",
+      "kind": "media",
+      "group": "media",
+      "status": "blocked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "最美科学径页面仅安全验证；未绕过。",
+        "en": "Science Trail page showed security verification only; no bypass."
+      }
+    },
+    {
+      "name": "Lancashire郡政府",
+      "url": "https://www.lancashire.gov.uk/fusion-supplier-portal/",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "供应商注册入口可读；未登录或下载项目包。",
+        "en": "Vendor registration entry page read; no login/project-pack download."
+      }
+    },
+    {
+      "name": "Leander市政府",
+      "url": "https://www.leandertx.gov/Bids.aspx",
+      "kind": "official",
+      "group": "government",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "旧Bids目录无开放条目；不据此否定其他门户公告。",
+        "en": "Older Bids directory lists none; not treated as disproving another portal's notice."
+      }
+    },
+    {
+      "name": "Bonfire公共业主采购",
+      "url": "https://leandertx.bonfirehub.com/",
+      "kind": "official",
+      "group": "government",
+      "status": "blocked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "CIPS27-008项目260764返回403；未绕过。",
+        "en": "CIPS27-008 project260764 returned403; no bypass."
+      }
+    },
+    {
+      "name": "Parks & People",
+      "url": "https://www.parksandpeople.org/",
+      "kind": "official",
+      "group": "organizer",
+      "status": "checked",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "notes": {
+        "zh": "Laurel Cemetery官网写2026年1月5日，与ASLA2027冲突；PDF重定向不可读，未新增。",
+        "en": "Laurel Cemetery page says5January2026 versusASLA2027; redirected PDF unreadable, not added."
       }
     }
   ],
@@ -1082,7 +1166,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-19T00:59:17Z",
-      "lastChecked": "2026-11-23T00:11:03Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "competition",
       "reviewMethod": "full-text"
     },
@@ -1193,7 +1277,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
       "updatedAt": "2026-11-11T04:49:26Z",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "competition"
     },
     {
@@ -1295,8 +1379,8 @@
         "en": "KRW100m per garden: design15m, construction80m, maintenance5m, excluding VAT. Separate prizes: gold10m, silver6m, bronze3m KRW."
       },
       "notes": {
-        "zh": "已读首尔市2026-3093号英文简章；12月7–9日收件，9日16:00 KST截止，优先于媒体00:00字段。海外团队须落实韩国施工合作及2027年5–10月维护；市府网页受限，官方PDF在媒体域名可读。",
-        "en": "Read Seoul notice 2026-3093 in English: entry 7–9 December, closing 16:00 KST, overriding media's 00:00 field. Overseas teams need Korean construction partners and May–October 2027 maintenance. Municipal page inaccessible; city-issued PDF read on media CDN."
+        "zh": "本轮市府英文原页恢复可读，确认12月7–9日收件、9日16:00KST；Gardenist正文重核海外施工合作及维护要求。详细预算拆分沿用先前已读官方PDF，本轮未重读附件。",
+        "en": "Municipal English page now readable:7–9December entry,9December16:00KST confirmed. Gardenist eligibility rechecked overseas construction partnership/maintenance. Detailed budget split retained from previously read official PDF; attachments not reread."
       },
       "sources": [
         {
@@ -1310,12 +1394,18 @@
           "url": "https://images.adsttc.com/submissions/opportunities/pdf_file/9133/1._Open_Call_Eng__Show_Garden_Competition_for_Seoul_International_Garden_Show_2027.pdf",
           "kind": "official",
           "group": "government"
+        },
+        {
+          "name": "市府英文原公告 / Municipal English call",
+          "url": "https://english.seoul.go.kr/open-call-for-designer-gardens-at-the-2027-seoul-international-garden-show/",
+          "kind": "official",
+          "group": "government"
         }
       ],
       "verification": "official",
       "firstSeen": "2026-11-11T04:49:26Z",
-      "updatedAt": "2026-11-13T00:28:00Z",
-      "lastChecked": "2026-11-13T00:28:00Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "competition",
       "reviewMethod": "full-text"
     },
@@ -1790,7 +1880,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-19T00:59:17Z",
-      "lastChecked": "2026-11-19T00:59:17Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "award",
       "reviewMethod": "full-text"
     },
@@ -1888,21 +1978,21 @@
         "en": "See original announcement"
       },
       "notes": {
-        "zh": "专业人物荣誉，通过提名函申报，不属于开放方案竞赛。",
-        "en": "A professional lifetime-achievement honor submitted by nomination letter, not a design-proposal competition."
+        "zh": "人物终身成就荣誉，非方案竞赛。有效新闻原文确认1月15日截止，未列时刻/时区；向jellicoeaward@iflaworld.org递交不超过3页提名信。旧提名路径失效，现替换为有效原公告。",
+        "en": "Lifetime-achievement nomination, not a proposal competition. Valid news confirms15January,no hour/zone; nomination letter up to3pages to jellicoeaward@iflaworld.org. Broken prior path replaced with valid primary notice."
       },
       "sources": [
         {
-          "name": "IFLA 官方提名通知 / Official",
-          "url": "https://www.iflaworld.com/jellicoe-2027-call-for-nominations",
+          "name": "IFLA有效提名公告 / Valid IFLA nomination notice",
+          "url": "https://www.iflaworld.com/newsblog/ifla-opens-nominations-for-the-2027-jellicoe-award",
           "kind": "official",
           "group": "association"
         }
       ],
       "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
-      "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-15T00:15:26Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "nomination",
       "reviewMethod": "full-text"
     },
@@ -2581,7 +2671,7 @@
       "verification": "official",
       "firstSeen": "2026-11-11T22:34:06Z",
       "updatedAt": "2026-11-11T22:34:06Z",
-      "lastChecked": "2026-11-17T00:55:00Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
       "opportunityType": "tender",
       "reviewMethod": "full-text"
     },
@@ -5003,6 +5093,259 @@
         {
           "name": "TED原公告（验证受阻） / TED original (verification blocked)",
           "url": "https://ted.europa.eu/en/notice/-/detail/782804-2026",
+          "kind": "official",
+          "group": "government"
+        }
+      ]
+    },
+    {
+      "registrationOpens": "2026-11-25",
+      "registrationDeadline": "2026-12-07T23:59:00+08:00",
+      "submissionDeadline": "2027-01-21T23:59:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，不视为免费。",
+        "en": "Fees unstated; not assumed free."
+      },
+      "eligibilityTags": [
+        "open",
+        "student",
+        "qualified"
+      ],
+      "firstSeen": "2026-11-27T00:14:19Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "reviewMethod": "full-text",
+      "id": "xiongan-water-village-design-2026",
+      "category": "project",
+      "region": "domestic",
+      "opportunityType": "competition",
+      "title": {
+        "zh": "雄安“创意水乡·创美未来”乡村空间设计大赛",
+        "en": "Xiong'an Water-village Spatial Design Competition"
+      },
+      "originalTitle": "雄安新区“创意水乡·创美未来”乡村空间创意设计大赛",
+      "location": {
+        "zh": "中国 · 河北雄安白洋淀周边村落",
+        "en": "Villages around Baiyangdian, Xiong'an, Hebei, China"
+      },
+      "summary": {
+        "zh": "乡村公共空间、滨水节点、街巷及儿童友好微改造；三赛道合并一条。",
+        "en": "Rural public-space, waterfront, street and child-friendly interventions; three tracks combined."
+      },
+      "eligibility": {
+        "zh": "专业机构、高校及个人均可，团队至多6人；高校团队至多2名导师且计入总数。每人/队仅选一赛道一点位。",
+        "en": "Institutions, universities and individuals; teams up to6, including up to2 academic advisers. One track/site per entrant."
+      },
+      "prize": {
+        "zh": "各赛道一、二、三等奖分别1万、5000、3000元；优秀奖实物。",
+        "en": "Each track: CNY10,000/5,000/3,000 for first/second/third; merit gifts."
+      },
+      "verification": "official",
+      "notes": {
+        "zh": "政府11月25日原公告已读；邮箱报名经审核发编号和场地资料。鼓励获奖作品落地，不承诺设计合同；参赛须知DOCX未读。",
+        "en": "Government25November notice read. Email registration reviewed before site pack/ID issued. Implementation encouraged, no guaranteed commission; DOCX rules unread."
+      },
+      "sources": [
+        {
+          "name": "雄安政府原公告 / Official Xiong'an call",
+          "url": "https://www.xiongan.gov.cn/20261125/606867a390a248b08f22c5e3b2727895/c.html",
+          "kind": "official",
+          "group": "government"
+        }
+      ]
+    },
+    {
+      "registrationOpens": null,
+      "registrationDeadline": "2026-12-16T15:00:00+08:00",
+      "submissionDeadline": "2026-12-21T15:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，不视为免费。",
+        "en": "Fees unstated; not assumed free."
+      },
+      "eligibilityTags": [
+        "open",
+        "qualified"
+      ],
+      "firstSeen": "2026-11-27T00:14:19Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "reviewMethod": "full-text",
+      "id": "dongguan-science-trail-2026",
+      "category": "project",
+      "region": "domestic",
+      "opportunityType": "competition",
+      "title": {
+        "zh": "东莞巍峨山“最美科学径”建筑景观概念设计竞赛",
+        "en": "Dongguan Weieshan Science Trail Design Competition"
+      },
+      "originalTitle": "东莞巍峨山科学谷“最美科学径”建筑景观概念设计竞赛",
+      "location": {
+        "zh": "中国 · 广东东莞巍峨山科学谷",
+        "en": "Weieshan Science Valley, Dongguan, Guangdong, China"
+      },
+      "summary": {
+        "zh": "绿道出入口、服务驿站及林下休憩点概念征集；各组和点位合并。",
+        "en": "Concepts for greenway gateways, service stations and forest rest spaces; groups/sites combined."
+      },
+      "eligibility": {
+        "zh": "面向境内外设计机构，无资质等级要求，法人或至多2家联合体；D组另接受个人/组合；须有公共景观等落地经验。",
+        "en": "Worldwide firms, no qualification-grade threshold; legal entities/consortia up to2 firms. D also accepts individuals/groups; built public-landscape experience required."
+      },
+      "prize": {
+        "zh": "转载列总奖金170万元，依点位分配；不拆分记录。",
+        "en": "Mirror states CNY1.7m total, allocated by site; one combined record."
+      },
+      "verification": "secondary",
+      "notes": {
+        "zh": "当前提交为12月21日纸质资格预审文件，12月16日先网上登记；仅入围者2027年2月25日15时交概念方案。转载局部遮蔽，原附件未读。未把另项竞赛组织服务采购的11月27日响应截止混入。",
+        "en": "Current submission: hard-copy prequalification21December, online registration16December; shortlisted design proposals25February2027,15:00. Mirror partly masked, original attachments unread. Separate competition-management procurement's27November cutoff excluded."
+      },
+      "sources": [
+        {
+          "name": "公开征集转载 / Call mirror",
+          "url": "https://www.qianlima.com/bid-650566798.html",
+          "kind": "media",
+          "group": "media"
+        },
+        {
+          "name": "另一转载（访问验证） / Other mirror (verification blocked)",
+          "url": "https://www.zjmtcn.com/zjxx/jianzhu/280577.html",
+          "kind": "media",
+          "group": "media"
+        }
+      ]
+    },
+    {
+      "registrationOpens": null,
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-12-07T12:00:00+00:00",
+      "timezone": "Europe/London",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，不视为免费。",
+        "en": "Fees unstated; not assumed free."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "firstSeen": "2026-11-27T00:14:19Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "reviewMethod": "full-text",
+      "id": "lancashire-landscape-framework-2026",
+      "category": "project",
+      "region": "international",
+      "opportunityType": "tender",
+      "title": {
+        "zh": "Lancashire专业服务框架—景观设计",
+        "en": "Lancashire Professional Services Framework—Landscape Design"
+      },
+      "originalTitle": "Professional Services Framework LCC48772 — Landscape Architect",
+      "location": {
+        "zh": "英国 · Lancashire",
+        "en": "Lancashire, United Kingdom"
+      },
+      "summary": {
+        "zh": "学校、公共建筑与市政开放空间景观顾问框架；仅收录本框架景观部分一条。",
+        "en": "Landscape consultancy for schools, public buildings and civic spaces; framework landscape component recorded once."
+      },
+      "eligibility": {
+        "zh": "面向景观咨询供应商；详细执业、保险、业绩和地域条件须查招标包，未获核实。",
+        "en": "Landscape consultancies; professional, insurance, experience and geographic terms require the unread tender pack."
+      },
+      "entryStatus": "unknown",
+      "prize": {
+        "zh": "景观第10标段估计合同额20万英镑，不含VAT；不是奖金或保证委托额。",
+        "en": "Landscape lot10 estimated GBP200,000 ex VAT; not a prize or guaranteed work."
+      },
+      "verification": "partial",
+      "notes": {
+        "zh": "已读政府公告景观段与提交正文；正文12月7日12时优先于摘要12月8日，按英国当地时间记录。提问11月30日12时，合同拟2027年2月至2031年1月；Fusion入口可读，但具体文件获取及资格待核实。",
+        "en": "Government landscape/submission sections read: body7December12:00 overrides8December summary; UK local time used. Questions30November noon, anticipated term February2027–January2031. Fusion entry page read; project document access/eligibility unknown."
+      },
+      "sources": [
+        {
+          "name": "政府完整公告 / Full government notice",
+          "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674645&catID=",
+          "kind": "official",
+          "group": "government"
+        },
+        {
+          "name": "业主供应商入口 / Buyer vendor portal",
+          "url": "https://www.lancashire.gov.uk/fusion-supplier-portal/",
+          "kind": "official",
+          "group": "government"
+        }
+      ]
+    },
+    {
+      "registrationOpens": null,
+      "registrationDeadline": null,
+      "submissionDeadline": "2026-12-01",
+      "timezone": "America/Chicago",
+      "fee": "unknown",
+      "feeText": {
+        "zh": "费用未明确，不视为免费。",
+        "en": "Fees unstated; not assumed free."
+      },
+      "eligibilityTags": [
+        "qualified"
+      ],
+      "firstSeen": "2026-11-27T00:14:19Z",
+      "updatedAt": "2026-11-27T00:14:19Z",
+      "lastChecked": "2026-11-27T00:14:19Z",
+      "reviewMethod": "full-text",
+      "id": "leander-landscape-design-analysis-2026",
+      "category": "project",
+      "region": "international",
+      "opportunityType": "tender",
+      "title": {
+        "zh": "Leander景观设计与分析顾问资格征集",
+        "en": "Leander Landscape Design and Analysis RFQ"
+      },
+      "originalTitle": "CIPS27-008 Landscape Architect Design and Analysis",
+      "location": {
+        "zh": "美国 · 得克萨斯州Leander",
+        "en": "Leander, Texas, USA"
+      },
+      "summary": {
+        "zh": "市政府征集景观设计与分析专业服务团队，建立按需委派的顾问资格库。",
+        "en": "Municipal landscape-design/analysis consultant prequalification pool for as-needed assignments."
+      },
+      "eligibility": {
+        "zh": "具市政工作经验及景观设计分析能力的个人、公司或法人；执照及完整资格未核实。",
+        "en": "Individuals, firms/corporations with municipal experience and landscape-design/analysis expertise; licensing/full eligibility unverified."
+      },
+      "entryStatus": "unknown",
+      "prize": {
+        "zh": "顾问服务采购，无竞赛奖金；合同金额未核实。",
+        "en": "Consulting procurement, no competition prize; contract amount unverified."
+      },
+      "verification": "secondary",
+      "notes": {
+        "zh": "公开转载正文已读：12月1日截止；一处页头20时CST、正文及另一转载14时冲突，仅存日期。Bonfire260764返回403，城市旧Bids目录无开放条目，不能确定文件获取/新报名状态。",
+        "en": "Public mirrors read:1December cutoff,20:00CST header conflicts with14:00body/other mirror; date only. Bonfire260764 returned403; city's older Bids directory lists none. Document access/new entry unknown."
+      },
+      "sources": [
+        {
+          "name": "公开公告转载 / Public notice mirror",
+          "url": "https://www.constructionbidsource.com/state/texas/county/williamson/854009",
+          "kind": "media",
+          "group": "media"
+        },
+        {
+          "name": "交叉核对（时刻冲突） / Cross-check (hour conflict)",
+          "url": "https://govtribe.com/opportunity/state-local-contract-opportunity/landscape-architect-design-and-analysis-cips27008",
+          "kind": "media",
+          "group": "media"
+        },
+        {
+          "name": "原采购门户（403） / Procurement portal (403)",
+          "url": "https://leandertx.bonfirehub.com/opportunities/260764",
           "kind": "official",
           "group": "government"
         }
